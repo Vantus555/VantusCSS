@@ -1,0 +1,10 @@
+.v-btn-shadow{
+    box-shadow: 0 0 5px 3px #404040;
+}
+.v-btn-shadow:focus{
+    transition: box-shadow .4s;
+    box-shadow: none;
+} 
+.v-btn-shadow:not(focus){
+    transition: box-shadow .4s;
+} 
