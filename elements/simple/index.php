@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../../mainStyle.css">
 </head>
 <body>
-    <a class="back" href="../../index.html">Назад</a>
+    <a class="back" href="../../index.php">Назад</a>
     <div class="list">
-        <a href="buttons/index.html" class="listitem">buttons</a>
+        <a href="buttons/index.php" class="listitem">buttons</a>
         <a href="" class="listitem">buttons groups</a>
         <a href="" class="listitem">alerts</a>
         <a href="" class="listitem">cards</a>

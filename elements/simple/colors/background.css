@@ -1,0 +1,24 @@
+.v-bg-success{ background-color: green; }
+.v-bg-hover.v-bg-success:hover,
+.v-bg-active.v-bg-success:active,
+.v-bg-focus.v-bg-success:focus{ background-color: rgb(7, 102, 37); }
+
+.v-bg-pink{ background-color: #c0189c; }
+.v-bg-hover.v-bg-pink:hover,
+.v-bg-active.v-bg-pink:active,
+.v-bg-focus.v-bg-pink:focus{ background-color: #831458; }
+
+.v-bg-danger{ background-color: #C92534; }
+.v-bg-hover.v-bg-danger:hover,
+.v-bg-active.v-bg-danger:active,
+.v-bg-focus.v-bg-danger:focus{ background-color: #bd2130; }
+
+.v-bg-secondary{ background-color: #6c757d; }
+.v-bg-hover.v-bg-secondary:hover,
+.v-bg-active.v-bg-secondary:active,
+.v-bg-focus.v-bg-secondary:focus{ background-color: #5A6268; }
+
+.v-bg-primary{ background-color: #0863D6;  }
+.v-bg-hover.v-bg-primary:hover,
+.v-bg-active.v-bg-primary:active,
+.v-bg-focus.v-bg-primary:focus{ background-color: #07478b; }
