@@ -1,0 +1,22 @@
+.v-btn-shadow-move-r:focus{
+    transform: translate(4px);
+}
+.v-btn-shadow-move-rd:focus{
+    transform: translate(4px, 4px);
+}
+.v-btn-shadow-move-d:focus{
+    transform: translateY(4px);
+}
+.v-btn-shadow-move-rd:focus,
+.v-btn-shadow-move-r:focus,
+.v-btn-shadow-move-d:focus{
+    transition-property: box-shadow transform;
+    transition: .4s;
+    box-shadow: none;
+}
+.v-btn-shadow-move-rd:not(focus),
+.v-btn-shadow-move-r:not(focus),
+.v-btn-shadow-move-d:not(focus){
+    transition-property: box-shadow transform;
+    transition: .4s;
+}
