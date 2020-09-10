@@ -2,9 +2,9 @@ body{
     background-color: #1e1e1e;
 }
 .list, .categories{
-    display: flex;
+    /*display: flex;
     margin: auto;
-    width: 1440px;
+    width: 1440px;*/
 }
 .listitem, .category{
     display: flex;

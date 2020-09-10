@@ -14,15 +14,10 @@
     <div class="list">
         <div class="listitemelem">
             <div class="element">
-                <button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap">Кнопка</button>
-                <span></span>
-                <p></p>
+                <h2 class="v-text-white v-text-trans-upper">category</h2>
+            </div><div class="element">
+                <h1 class="v-text-white v-text-trans-cap">the catalyzer</h1>
             </div>
-            <code class="code-element">
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>       
-            </code>
         </div>
     </div>
 </body>
