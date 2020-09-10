@@ -14,7 +14,7 @@
     <div class="list">
         <div class="listitemelem">
             <div class="element">
-                <button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap">Кнопка</button>
+                <button class="v-btn v-bg-hover v-bg-focus v-bg-primary v-btn-bootstrap">Кнопка</button>
                 <button class="v-btn v-bg-focus v-bg-secondary v-btn-bootstrap">Кнопка</button>
                 <button class="v-btn v-bg-focus v-bg-success v-btn-bootstrap">Кнопка</button>
                 <button class="v-btn v-bg-focus v-bg-danger v-btn-bootstrap">Кнопка</button>

@@ -1,7 +1,7 @@
 .v-bg-success{ background-color: green; }
 .v-bg-hover.v-bg-success:hover,
 .v-bg-active.v-bg-success:active,
-.v-bg-focus.v-bg-success:focus{ background-color: rgb(7, 102, 37); }
+.v-bg-focus.v-bg-success:focus{ background-color: var(--snsvdcvvghc) rgb(7, 102, 37); }
 
 .v-bg-pink{ background-color: #c0189c; }
 .v-bg-hover.v-bg-pink:hover,

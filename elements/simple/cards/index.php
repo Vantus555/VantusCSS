@@ -14,28 +14,15 @@
     <div class="list">
         <div class="listitemelem">
             <div class="element">
-                <button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap">Кнопка</button>
-                <button class="v-btn v-bg-focus v-bg-secondary v-btn-bootstrap">Кнопка</button>
-                <button class="v-btn v-bg-focus v-bg-success v-btn-bootstrap">Кнопка</button>
-                <button class="v-btn v-bg-focus v-bg-danger v-btn-bootstrap">Кнопка</button>
-                <button class="v-btn v-bg-focus v-bg-pink v-btn-bootstrap">Кнопка</button>
+                
+                <div class="v-flex-jac v-bg-success cards v-container-540">
+
+                </div>
             </div>
             <code class="code-element">
                 <div class="listitemelem">
                     &lt;button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-secondary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-success v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>    
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-pink v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>              
+                </div>             
             </code>
         </div>
     </div>

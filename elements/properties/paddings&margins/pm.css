@@ -25,6 +25,8 @@
 .v-pt-1{padding-top: 4px;}
 
 /*--------------margin--------------*/
+.v-mr-auto {margin: auto;}
+/*----------------------------------*/
 .v-mr-5{margin-right: 5px;}
 .v-ml-5{margin-left: 5px;}
 .v-md-5{margin-bottom: 5px;}
