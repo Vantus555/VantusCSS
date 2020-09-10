@@ -10,7 +10,7 @@
     <a class="back" href="../../index.php">Назад</a>
     <div class="list">
         <a href="buttons/index.php" class="listitem">buttons</a>
-        <a href="" class="listitem">buttons groups</a>
+        <a href="buttons groups/index.php" class="listitem">buttons groups</a>
         <a href="" class="listitem">alerts</a>
         <a href="cards/index.php" class="listitem">cards</a>
         <a href="" class="listitem">favicons</a>

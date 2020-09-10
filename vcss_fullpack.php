@@ -14,4 +14,5 @@
     require_once 'elements/properties/shadow/shadow-move.css';
     require_once 'elements/properties/w&h/w&h.css';
     require_once 'elements/properties/borders&outlines/bo.css';
+    require_once 'elements/simple/buttons groups/buttongroup1.css';
 ?>
