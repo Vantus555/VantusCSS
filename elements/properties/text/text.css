@@ -1,0 +1,22 @@
+/*------------Жирность-------------*/
+.v-bold-100{font-weight: 100;}
+.v-bold-200{font-weight: 200;}
+.v-bold-300{font-weight: 300;}
+.v-bold-400{font-weight: 400;}
+.v-bold-500{font-weight: 500;}
+.v-bold-600{font-weight: 600;}
+.v-bold-700{font-weight: 700;}
+.v-bold-800{font-weight: 800;}
+.v-bold-900{font-weight: 900;}
+
+/*------------decoration-------------*/
+.v-text-decor-none{text-decoration-line: none;}
+.v-text-decor-under{text-decoration-line: underline;}
+.v-text-decor-over{text-decoration-line: overline;}
+.v-text-decor-line{text-decoration-line: line-through;}
+
+/*------------transform-------------*/
+.v-text-trans-none{text-transform: none;}
+.v-text-trans-upper{text-transform: uppercase;}
+.v-text-trans-lover{text-transform: lowercase;}
+.v-text-trans-cap{text-transform: capitalize;}

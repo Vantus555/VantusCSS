@@ -1,0 +1,23 @@
+.v-d-none{display: none;}
+.v-d-block{display: block;}
+.v-d-flex{display: flex;}
+.v-d-grid{display: grid;}
+
+.v-flex-direct-col{flex-direction: column;}
+.v-flex-direct-row{flex-direction: row;}
+.v-flex-direct-rcol{flex-direction: column-reverse;}
+.v-flex-direct-rrow{flex-direction: row-reverse;}
+
+.v-flex-jcc{display: flex; justify-content: center;}
+.v-flex-aic{display: flex; align-items: center;}
+.v-flex-center{display: flex; align-items: center; justify-content: center;}
+
+.v-grid-col-2{display: grid; grid-template-columns: repeat(2, 1fr);}
+.v-grid-col-3{display: grid; grid-template-columns: repeat(3, 1fr);}
+.v-grid-col-4{display: grid; grid-template-columns: repeat(4, 1fr);}
+.v-grid-col-5{display: grid; grid-template-columns: repeat(5, 1fr);}
+.v-grid-col-6{display: grid; grid-template-columns: repeat(6, 1fr);}
+.v-grid-col-7{display: grid; grid-template-columns: repeat(7, 1fr);}
+.v-grid-col-8{display: grid; grid-template-columns: repeat(8, 1fr);}
+.v-grid-col-9{display: grid; grid-template-columns: repeat(9, 1fr);}
+.v-grid-col-10{display: grid; grid-template-columns: repeat(10, 1fr);}

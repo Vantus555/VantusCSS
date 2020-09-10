@@ -1,0 +1,12 @@
+.v-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    margin: 2px 8px;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.v-btn-shadow-move-r:focus{
+    transform: translate(4px);
+}
+.v-btn-shadow-move-rd:focus{
+    transform: translate(4px, 4px);
+}
+.v-btn-shadow-move-d:focus{
+    transform: translateY(4px);
+}
+/*---------------------------------------------------------*/
+.v-shadow-focus.v-btn-shadow-move-rd:focus,
+.v-shadow-focus.v-btn-shadow-move-r:focus,
+.v-shadow-focus.v-btn-shadow-move-d:focus,
+
+.v-shadow-active.v-btn-shadow-move-rd:active,
+.v-shadow-active.v-btn-shadow-move-r:active,
+.v-shadow-active.v-btn-shadow-move-d:active,
+
+.v-shadow-hover.v-btn-shadow-move-rd:hover,
+.v-shadow-hover.v-btn-shadow-move-r:hover,
+.v-shadow-hover.v-btn-shadow-move-d:hover{
+    transition-property: box-shadow transform;
+    transition: .4s;
+    box-shadow: none;
+}
+/*---------------------------------------------------------*/
+.v-shadow-focus.v-btn-shadow-move-rd:not(focus),
+.v-shadow-focus.v-btn-shadow-move-r:not(focus),
+.v-shadow-focus.v-btn-shadow-move-d:not(focus),
+
+.v-shadow-active.v-btn-shadow-move-rd:active,
+.v-shadow-active.v-btn-shadow-move-r:active,
+.v-shadow-active.v-btn-shadow-move-d:active,
+
+.v-shadow-hover.v-btn-shadow-move-rd:hover,
+.v-shadow-hover.v-btn-shadow-move-r:hover,
+.v-shadow-hover.v-btn-shadow-move-d:hover{
+    transition-property: box-shadow transform;
+    transition: .4s;
+}
