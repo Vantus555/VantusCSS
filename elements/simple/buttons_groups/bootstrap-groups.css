@@ -1,0 +1,23 @@
+.v-btn-gr-bt-r{
+    border-radius: 3px 0 0 3px;
+}
+.v-btn-gr-bt-l{
+    border-radius: 0 3px 3px 0;
+}
+
+.v-btn-gr-bt-r:focus,
+.v-btn-gr-bt:focus,
+.v-btn-gr-bt-l:focus{
+    z-index: 0;
+    transition: box-shadow .3s;
+    box-shadow: 0 0 0.5px 2px #616161;
+}
+
+.v-btn-gr-bt-r,
+.v-btn-gr-bt,
+.v-btn-gr-bt-l{
+    margin: 0;
+    z-index: 1;
+    transition: box-shadow .4s;
+    box-shadow: none;
+}

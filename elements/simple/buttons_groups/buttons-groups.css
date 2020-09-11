@@ -1,0 +1,27 @@
+.v-btn-gr-el{
+    z-index: 0;
+    margin: 2px 0px;
+    border-radius: 0px;
+}
+.v-btn-gr-el-r{
+    z-index: 0;
+    margin: 2px 0px;
+    border-radius: 0px 50px 50px 0px;
+}
+.v-btn-gr-el-l{
+    z-index: 0;
+    margin: 2px 0px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.v-btn-gr-el:hover,
+.v-btn-gr-el-l:hover,
+.v-btn-gr-el-r:hover,
+.v-btn-gr-el:active,
+.v-btn-gr-el-l:active,
+.v-btn-gr-el-r:active,
+.v-btn-gr-el:focus,
+.v-btn-gr-el-l:focus,
+.v-btn-gr-el-r:focus{
+    z-index: 1;
+}

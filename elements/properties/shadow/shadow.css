@@ -1,13 +1,17 @@
 .v-shadow{
+    transition: box-shadow .4s;
     box-shadow: 0 0 5px 3px #404040;
 }
 .v-shadow-rd{
+    transition: box-shadow .4s;
     box-shadow: 4px 4px 3px 0 #404040;
 }
 .v-shadow-r{
+    transition: box-shadow .4s;
     box-shadow: 4px 0 3px 0 #404040;
 }
 .v-shadow-d{
+    transition: box-shadow .4s;
     box-shadow: 0 4px 3px 0 #404040;
 }
 /*---------------------------------------------------------*/
@@ -29,19 +33,3 @@
     box-shadow: none;
 }
 /*---------------------------------------------------------*/
-.v-shadow-focus.v-shadow:not(focus),
-.v-shadow-focus.v-shadow-rd:not(focus),
-.v-shadow-focus.v-shadow-d:not(focus),
-.v-shadow-focus.v-shadow-r:not(focus),
-
-.v-shadow-active.v-shadow:not(active),
-.v-shadow-active.v-shadow-rd:not(active),
-.v-shadow-active.v-shadow-d:not(active),
-.v-shadow-active.v-shadow-r:not(active),
-
-.v-shadow-hover.v-shadow:not(hover),
-.v-shadow-hover.v-shadow-rd:not(hover),
-.v-shadow-hover.v-shadow-d:not(hover),
-.v-shadow-hover.v-shadow-r:not(hover){
-    transition: box-shadow .4s;
-} 

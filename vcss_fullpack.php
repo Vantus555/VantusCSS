@@ -11,8 +11,10 @@
     require_once 'elements/properties/display/display.css';
     require_once 'elements/properties/display/container.css';
     require_once 'elements/properties/shadow/shadow.css';
+    require_once 'elements/properties/shadow/shadow-revert.css';
     require_once 'elements/properties/shadow/shadow-move.css';
     require_once 'elements/properties/w&h/w&h.css';
     require_once 'elements/properties/borders&outlines/bo.css';
-    require_once 'elements/simple/buttons groups/buttongroup1.css';
+    require_once 'elements/simple/buttons_groups/buttons-groups.css';
+    require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
 ?>
