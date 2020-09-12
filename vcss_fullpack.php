@@ -1,7 +1,7 @@
 <?php
     require_once 'elements/simple/buttons/btn.css';
     require_once 'elements/simple/buttons/bootstrap.css';
-    require_once 'elements/simple/cards/cards1.css';
+    require_once 'elements/simple/cards/cards.css';
     require_once 'elements/properties/shadow/shadow.css';
     require_once 'elements/properties/shadow/shadow-move.css';
     require_once 'elements/properties/colors/background.css';

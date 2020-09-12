@@ -1,0 +1,86 @@
+.v-vcard-default,
+.v-hcard-default{
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.v-hcard-default{flex-direction: row;}
+
+.v-bg-dark.v-vcard-default .more{color: #fff;}
+.v-bg-dark.v-hcard-default .more{color: #fff;}
+
+.v-vcard-default img{
+    width: 100%;
+    margin: 0;
+}
+
+.v-vcard-default div:nth-child(2){padding: 20px;}
+
+.v-vcard-default div p:nth-child(1),
+.v-hcard-default div p:nth-child(1)
+{
+    font-size: 12px;
+    color: #777;
+    padding-top: 5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.v-bg-dark.v-vcard-default div p:nth-child(1){color: #999;}
+.v-bg-dark.v-hcard-default div p:nth-child(1){color: #999;}
+
+.v-vcard-default div p:nth-child(2),
+.v-hcard-default div p:nth-child(2){
+    font-size: 20px;
+    color: #333;
+    padding-top: 5px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.v-bg-dark.v-vcard-default div p:nth-child(2){ color: #999; }
+.v-bg-dark.v-hcard-default div p:nth-child(2){ color: #999; }
+
+.v-vcard-default div p:nth-child(3),
+.v-hcard-default div p:nth-child(3){
+    font-size: 16px;
+    color: #333;
+    padding-top: 5px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.v-bg-dark.v-vcard-default div p:nth-child(3){ color: #ccc; }
+.v-bg-dark.v-hcard-default div p:nth-child(3){ color: #ccc; }
+
+.v-vcard-default div div:nth-child(4){
+    display: flex;
+    padding: 10px 0 0 0;
+}
+
+
+/*-------------------------------*/
+
+.v-hcard-default img{
+    width: 30%;
+    margin: 0;
+}
+
+.v-hcard-default div:nth-child(2){
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.v-hcard-default div div:nth-child(4){
+    display: flex;
+    padding: 10px 0 0 0;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
