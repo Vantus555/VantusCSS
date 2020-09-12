@@ -20,3 +20,9 @@
 .v-text-trans-upper{text-transform: uppercase;}
 .v-text-trans-lover{text-transform: lowercase;}
 .v-text-trans-cap{text-transform: capitalize;}
+
+/*------------Шрифты-------------*/
+.v-text-size-10{font-size: 10px;}
+.v-text-size-14{font-size: 14px;}
+.v-text-size-16{font-size: 16px;}
+.v-text-size-20{font-size: 20px;}

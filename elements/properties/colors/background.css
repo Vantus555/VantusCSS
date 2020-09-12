@@ -22,3 +22,13 @@
 .v-bg-hover.v-bg-primary:hover,
 .v-bg-active.v-bg-primary:active,
 .v-bg-focus.v-bg-primary:focus{ background-color: #07478b; }
+
+.v-bg-light{ background-color: #fff;  }
+.v-bg-hover.v-bg-light:hover,
+.v-bg-active.v-bg-light:active,
+.v-bg-focus.v-bg-light:focus{ background-color: #aaa; }
+
+.v-bg-b{ background-color: #bbb;  }
+.v-bg-hover.v-bg-b:hover,
+.v-bg-active.v-bg-b:active,
+.v-bg-focus.v-bg-b:focus{ background-color: #888; }
