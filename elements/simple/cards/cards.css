@@ -84,3 +84,69 @@
     right: 20px;
     bottom: 10px;
 }
+
+/*=-------------------------------eat---------------------------------------*/
+
+.v-card-fastfood{
+    padding: 30px;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.v-card-fastfood h3{
+    display: flex;
+    margin: auto;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.v-card-fastfood img{
+    width: 75%;
+    background-color: transparent;
+    margin: 15px auto;
+}
+
+.v-card-fastfood span{
+    display: flex;
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.v-card-fastfood h1{
+    color: #ccc;
+    margin: 0;
+    font-weight: 700;
+}
+
+.v-card-fastfood p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.v-card-fastfood hr{
+    width: 100%;
+    border: 0.4px solid #555;
+}
+
+.v-card-fastfood .v-fastfood-calories{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.v-card-fastfood .v-fastfood-calories span{
+    color: #aaa;
+    font-weight: 300;
+    font-size: 14px;
+    display: inline;
+}
+
+.v-card-fastfood .v-buy{
+    padding-top: 10px;;
+    display: flex;
+    justify-content: center;
+}

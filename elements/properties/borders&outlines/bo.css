@@ -5,9 +5,11 @@
 .v-b-solid-grey-2{border: 2px solid grey;}
 .v-b-solid-grey-1{border: 1px solid grey;}
 /*----------------------------------*/
-.v-border-1{border: 1px;}
-.v-border-1{border: 1px;}
-.v-border-1{border: 1px;}
+.v-radius-5{border-radius: 5px;}
+.v-radius-4{border-radius: 4px;}
+.v-radius-3{border-radius: 3px;}
+.v-radius-2{border-radius: 2px;}
+.v-radius-1{border-radius: 1px;}
 /*----------------------------------*/
 .v-br-5{border-right: 5px;}
 .v-bl-5{border-left: 5px;}
