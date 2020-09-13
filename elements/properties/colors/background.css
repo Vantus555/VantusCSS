@@ -23,7 +23,7 @@
 .v-bg-active.v-bg-primary:active,
 .v-bg-focus.v-bg-primary:focus{ background-color: #07478b; }
 
-.v-bg-light{ background-color: #fff;  }
+.v-bg-light{ background-color: #fdfdfe;  }
 .v-bg-hover.v-bg-light:hover,
 .v-bg-active.v-bg-light:active,
 .v-bg-focus.v-bg-light:focus{ background-color: #aaa; }

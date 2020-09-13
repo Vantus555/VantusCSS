@@ -6,8 +6,11 @@
     flex-direction: column;
     background-color: #fff;
     border: 1.5px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
+.v-bg-dark.v-vcard-default{border: none;}
+.v-bg-dark.v-hcard-default{border: none;}
 
 .v-hcard-default{flex-direction: row;}
 
@@ -63,7 +66,6 @@
     padding: 10px 0 0 0;
 }
 
-
 /*-------------------------------*/
 
 .v-hcard-default img{
@@ -85,25 +87,57 @@
     bottom: 10px;
 }
 
-/*=-------------------------------eat---------------------------------------*/
+@media screen and (max-width: 720px){
+    .v-hcard-default{flex-direction: column;}
+    .v-hcard-default img { width: 100%; }
+    .v-hcard-default div div:nth-child(4) {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+}
 
-.v-card-fastfood{
-    padding: 30px;
+/*=-------------------------------fastfood---------------------------------------*/
+
+.v-card-fastfood-wrap{
     background-color: #1b1b1b;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.v-card-fastfood-wrap .v-card-fastfood{
+    padding: 30px;
+    z-index: 1;
+}
+
+.v-card-fastfood-wrap div:nth-child(1){
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    border-radius: 30px 30px 0 0;
+    background-color: green;
+    position: absolute;
+    height: 220px;
+    width: 100%;
+    z-index: 0;
+}
+
+.v-bg-light.v-card-fastfood-wrap{
+    border: 1px solid #777;
 }
 
 .v-card-fastfood h3{
     display: flex;
-    margin: auto;
+    justify-content: center;
     color: #fff;
     margin-top: 10px;
 }
 
+/*.v-bg-light.v-card-fastfood-wrap .v-card-fastfood h3{color: #000;}*/
+
 .v-card-fastfood img{
+    display: block;
     width: 75%;
     background-color: transparent;
     margin: 15px auto;
@@ -122,10 +156,15 @@
     font-weight: 700;
 }
 
+.v-bg-light.v-card-fastfood-wrap .v-card-fastfood h1,
+.v-bg-light.v-card-fastfood-wrap .v-card-fastfood span{color: #333}
+
 .v-card-fastfood p{
     color: #fff;
     font-size: 12px;
 }
+
+.v-bg-light.v-card-fastfood-wrap .v-card-fastfood p {color: #000}
 
 .v-card-fastfood hr{
     width: 100%;
@@ -145,8 +184,10 @@
     display: inline;
 }
 
+.v-bg-light.v-card-fastfood-wrap .v-card-fastfood .v-fastfood-calories span {color: #333;}
+
 .v-card-fastfood .v-buy{
-    padding-top: 10px;;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
