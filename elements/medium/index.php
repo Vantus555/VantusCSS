@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../../mainStyle.css">
 </head>
 <body>
-    <a class="back" href="../../index.html">Назад</a>
+    <a class="back" href="../../index.php">Назад</a>
+    <div class="list">
+        <a href="navbars/index.php" class="listitem">navdars</a>
+    </div>
 </body>
 </html>
