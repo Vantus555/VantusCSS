@@ -42,34 +42,55 @@
             </code>-->
         </div>
         <div class="listitemelem">
-            <div class="element v-container-full v-bg-dark">
+            <div class="element v-container-full v-bg-dark"> 
                 <div class="navbar-1 v-container-1140 v-bg-light">
-                    <div>
+                    <div class="navbar-1-collapse">
+                        <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Whatch Now</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Movies</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">TV Show</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Sports</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Kids</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Library</a>
                     </div>
                 </div>
             </div>
-            <!--<code class="code-element v-container-full">
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>             
-            </code>-->
         </div>
     </div>
 </body>
+
+<script src="VantusJS.js"></script>
+<script src="VJS_Show.js"></script>
+
+<script>
+    V(".navbar-1-collapse .v-btn-collapse").event({
+        events: ['click'],
+        funcs: [
+            function(){
+                V(".v-collapsing").show({
+                    speed: 1000,
+                    display: "flex",
+                    direction: 'down'
+                });
+            }
+        ]
+    })
+</script>
+
 </html>

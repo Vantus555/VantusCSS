@@ -13,9 +13,11 @@
     require_once 'elements/properties/shadow/shadow-move.css';
     require_once 'elements/properties/w&h/w&h.css';
     require_once 'elements/properties/borders&outlines/bo.css';
+
     // Simple
     require_once 'elements/simple/buttons/btn.css';
     require_once 'elements/simple/buttons/bootstrap.css';
+    require_once 'elements/simple/buttons/btn-collapse.css';
     require_once 'elements/simple/cards/cards.css';
     require_once 'elements/simple/buttons_groups/buttons-groups.css';
     require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
