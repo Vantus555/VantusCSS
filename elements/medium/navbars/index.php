@@ -13,33 +13,35 @@
     <a class="back" href="../index.php">Назад</a>
     <div class="list v-container-1440">
         <div class="listitemelem">
-            <div class="element v-container-full v-bg-light ">
+            <div class="element v-container-full v-bg-light">
                 <div class="navbar-1 v-container-1140 v-bg-dark">
-                    <div>
+                    <div class="navbar-1-collapse">
+                        <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Whatch Now</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Movies</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">TV Show</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Sports</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Kids</a>
                     </div>
-                    <div>
+                    <div class="v-collapsing">
                         <a href="" class="v-shadow-rev-5 v-shadow-hover">Library</a>
                     </div>
                 </div>
             </div>
-            <!--<code class="code-element v-container-full">
-                <div class="listitemelem">
-                    &lt;button class="v-btn v-bg-focus v-bg-primary v-btn-bootstrap"&gt;Кнопка&lt;/button&gt;
-                </div>             
-            </code>-->
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-dark"> 
@@ -83,7 +85,8 @@
         events: ['click'],
         funcs: [
             function(){
-                V(".v-collapsing").show({
+                let collapsing = V(this).findParent('navbar-1').children('v-collapsing');
+                collapsing.toggleShow({
                     speed: 1000,
                     display: "flex",
                     direction: 'down'
