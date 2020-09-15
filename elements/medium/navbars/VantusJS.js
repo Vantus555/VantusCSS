@@ -133,6 +133,18 @@ class VantusJS {
         return false;
     }
 
+    addClass(search_class = ''){
+        this.elems.forEach(element => {
+            element.classList.add(search_class);
+        });
+    }
+
+    toggleClass(search_class = ''){
+        this.elems.forEach(element => {
+            element.classList.toggle(search_class);
+        });
+    }
+
     parent(search_class = ''){
         if(search_class == '')
             return V(this.elems[0].parentElement);

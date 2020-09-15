@@ -1,4 +1,5 @@
-.v-btn-collapse{
+.v-btn-collapse,
+.v-btn-collapse-x{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,8 +14,47 @@
     border-radius: 5px;
 }
 
-.v-btn-collapse div{
+.v-btn-collapse div,
+.v-btn-collapse-x div{
     border: 1px solid #555;
     width: 100%;
     height: 0;
+}
+
+.v-btn-collapse:hover div{
+    border: 1px solid #fff;
+}
+
+.v-btn-collapse-x div:nth-child(1){
+    transform: translateX(35%) rotateZ(-45deg) translateX(-43%);
+    transition: transform 1s;
+}
+
+.v-btn-collapse-x div:nth-child(2){
+    transform: translateX(100%);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+}
+
+.v-btn-collapse-x div:nth-child(3){
+    transform: translateX(35%) rotateZ(45deg) translateX(-43%);
+    transition: transform 1s;
+}
+
+.v-btn-collapse-notx div:nth-child(1){
+    transform: translateX(0) rotateZ(0) translateX(0);
+    transition: transform 1s;
+}
+
+.v-btn-collapse-notx div:nth-child(2){
+    transform: translateX(0);
+    opacity: 1;
+    transition-property: transform, opacity;
+    transition-duration: 1s;
+}
+
+.v-btn-collapse-notx div:nth-child(3){
+    transform: translateX(0) rotateZ(0) translateX(0);
+    transition: transform 1s;
 }

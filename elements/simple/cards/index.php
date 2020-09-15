@@ -102,7 +102,7 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-card-fastfood-wrap v-container-360">
+                <div class="v-card-fastfood-wrap v-bg-dark v-container-360">
                     <div></div>
                     <div class="v-card-fastfood">
                         <h3>McDonald`s</h3>

@@ -4,7 +4,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     border: 1.5px solid #ccc;
     border-radius: 10px;
 }
@@ -100,7 +99,6 @@
 /*=-------------------------------fastfood---------------------------------------*/
 
 .v-card-fastfood-wrap{
-    background-color: #1b1b1b;
     display: flex;
     flex-direction: column;
     border-radius: 30px;

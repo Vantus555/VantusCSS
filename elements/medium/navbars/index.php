@@ -84,28 +84,28 @@
                             <div></div>
                         </div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">Whatch Now</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">Whatch Now</a>
                         <div class="borderdown"></div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">Movies</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">Movies</a>
                         <div class="borderdown"></div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">TV Show</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">TV Show</a>
                         <div class="borderdown"></div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">Sports</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">Sports</a>
                         <div class="borderdown"></div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">Kids</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">Kids</a>
                         <div class="borderdown"></div>
                     </div>
-                    <div class="v-navbar-2-items v-collapsing">
-                        <a href="" class="v-bg-light">Library</a>
+                    <div class="v-collapsing">
+                        <a href="" class="v-navbar-2-items v-bg-light">Library</a>
                         <div class="borderdown"></div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
         events: ['mouseover', 'mouseout'],
         funcs: [
             function(){
-                let border = V(this).children("borderdown");
+                let border = V(this).parent().children("borderdown");
                 border.show({
                     speed: 150,
                     display: "flex",
@@ -157,12 +157,28 @@
                 });
             },
             function(){
-                let border = V(this).children("borderdown");
+                let border = V(this).parent().children("borderdown");
                 border.show({
                     speed: 150,
                     display: "flex",
                     direction: 'rightback'
                 });
+            }
+        ]
+    });
+
+    V(".v-btn-collapse").event({
+        events: ['click'],
+        funcs: [
+            function(){
+                let thiselem = V(this);
+                if(!thiselem.hasClass("v-btn-collapse-x") && !thiselem.hasClass("v-btn-collapse-notx")){
+                    thiselem.toggleClass("v-btn-collapse-x");
+                }
+                else{
+                    thiselem.toggleClass("v-btn-collapse-notx");
+                    thiselem.toggleClass("v-btn-collapse-x");
+                }
             }
         ]
     });
