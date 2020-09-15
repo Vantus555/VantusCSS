@@ -14,8 +14,8 @@
     <div class="list v-container-1440">
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light">
-                <div class="navbar-1 v-container-1140 v-bg-dark">
-                    <div class="navbar-1-collapse">
+                <div class="v-navbar-1 v-container-1140 v-bg-dark">
+                    <div class="v-navbar-1-collapse">
                         <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
                             <div></div>
                             <div></div>
@@ -45,8 +45,8 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-dark"> 
-                <div class="navbar-1 v-container-1140 v-bg-light">
-                    <div class="navbar-1-collapse">
+                <div class="v-navbar-1 v-container-1140 v-bg-light">
+                    <div class="v-navbar-1-collapse">
                         <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
                             <div></div>
                             <div></div>
@@ -81,13 +81,13 @@
 <script src="VJS_Show.js"></script>
 
 <script>
-    V(".navbar-1-collapse .v-btn-collapse").event({
+    V(".v-navbar-1-collapse .v-btn-collapse").event({
         events: ['click'],
         funcs: [
             function(){
-                let collapsing = V(this).findParent('navbar-1').children('v-collapsing');
+                let collapsing = V(this).parent('v-navbar-1').children('v-collapsing');
                 collapsing.toggleShow({
-                    speed: 1000,
+                    speed: 250,
                     display: "flex",
                     direction: 'down'
                 });
