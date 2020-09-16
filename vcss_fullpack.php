@@ -25,4 +25,5 @@
     // Medium
     require_once 'elements/medium/navbars/navbar-1.css';
     require_once 'elements/medium/navbars/navbar-2.css';
+    require_once 'elements/medium/navbars/navbar-3.css';
 ?>

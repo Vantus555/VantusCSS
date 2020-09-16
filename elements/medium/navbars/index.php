@@ -111,6 +111,27 @@
                 </div>
             </div>
         </div>
+        <div class="listitemelem">
+            <div style="box-sizing: content-box; align-items: flex-start; min-height: 200px; justify-content: flex-start;" class="element v-container-full v-bg-light"> 
+                <div class="v-navbar-3 v-bg-dark">
+                    <div class="v-navbar-3-collapse">
+                        <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="v-navbar-3-groups">
+                        <div><a href="">Whatch Now</a></div>
+                        <div><a href="">Movies</a></div>
+                        <div><a href="">TV Show</a></div>
+                        <div><a href="">Sports</a></div>
+                        <div><a href="">Kids</a></div>
+                        <div><a href="">Library</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -162,6 +183,20 @@
                     speed: 150,
                     display: "flex",
                     direction: 'rightback'
+                });
+            }
+        ]
+    });
+
+    V(".v-navbar-3-collapse").event({
+        events: ['click'],
+        funcs: [
+            function(){
+                V(this).parent("v-navbar-3").children("v-navbar-3-groups").toggleShow({
+                    speed: 1000,
+                    display: "flex",
+                    direction: 'right',
+                    width: '200'
                 });
             }
         ]

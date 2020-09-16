@@ -1,0 +1,39 @@
+.v-navbar-3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+}
+
+.v-navbar-3-collapse{
+    position: absolute;
+    right: -60px;
+    top: 0;
+}
+
+.v-navbar-3-groups{
+    display: none;
+    height: 100%;
+    width: 0;
+    flex-direction: column;
+}
+
+.v-navbar-3-groups div{
+    width: 100%;
+}
+
+.v-navbar-3-groups div a{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.v-navbar-3-groups div:hover{
+    background-color: #555;
+}
