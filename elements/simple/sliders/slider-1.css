@@ -1,191 +1,78 @@
-.v-vcard-default,
-.v-hcard-default{
-    padding: 12px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    border: 1.5px solid #ccc;
-    border-radius: 10px;
+.slider-1{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    height: 300px;
+    background: linear-gradient(150deg, rgba(155,99,198,1) 0%, rgba(102,45,222,1) 100%);
 }
 
-.v-bg-dark.v-vcard-default{border: none;}
-.v-bg-dark.v-hcard-default{border: none;}
-
-.v-hcard-default{flex-direction: row;}
-
-.v-bg-dark.v-vcard-default .more{color: #fff;}
-.v-bg-dark.v-hcard-default .more{color: #fff;}
-
-.v-vcard-default img{
-    width: 100%;
-    margin: 0;
-}
-
-.v-vcard-default div:nth-child(2){padding: 20px;}
-
-.v-vcard-default div p:nth-child(1),
-.v-hcard-default div p:nth-child(1)
-{
-    font-size: 12px;
-    color: #777;
-    padding-top: 5px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.v-bg-dark.v-vcard-default div p:nth-child(1){color: #999;}
-.v-bg-dark.v-hcard-default div p:nth-child(1){color: #999;}
-
-.v-vcard-default div p:nth-child(2),
-.v-hcard-default div p:nth-child(2){
-    font-size: 20px;
-    color: #333;
-    padding-top: 5px;
-    margin: 0;
-    text-transform: capitalize;
-}
-
-.v-bg-dark.v-vcard-default div p:nth-child(2){ color: #999; }
-.v-bg-dark.v-hcard-default div p:nth-child(2){ color: #999; }
-
-.v-vcard-default div p:nth-child(3),
-.v-hcard-default div p:nth-child(3){
-    font-size: 16px;
-    color: #333;
-    padding-top: 5px;
-    margin: 0;
-    text-transform: capitalize;
-}
-
-.v-bg-dark.v-vcard-default div p:nth-child(3){ color: #ccc; }
-.v-bg-dark.v-hcard-default div p:nth-child(3){ color: #ccc; }
-
-.v-vcard-default div div:nth-child(4){
-    display: flex;
-    padding: 10px 0 0 0;
-}
-
-/*-------------------------------*/
-
-.v-hcard-default img{
-    width: 30%;
-    margin: 0;
-}
-
-.v-hcard-default div:nth-child(2){
-    padding: 20px;
-    position: relative;
-    width: 100%;
-}
-
-.v-hcard-default div div:nth-child(4){
-    display: flex;
-    padding: 10px 0 0 0;
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-}
-
-@media screen and (max-width: 720px){
-    .v-hcard-default{flex-direction: column;}
-    .v-hcard-default img { width: 100%; }
-    .v-hcard-default div div:nth-child(4) {
-        position: relative;
-        bottom: 0;
-        right: 0;
-    }
-}
-
-/*=-------------------------------fastfood---------------------------------------*/
-
-.v-card-fastfood-wrap{
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    box-sizing: border-box;
-    position: relative;
-}
-
-.v-card-fastfood-wrap .v-card-fastfood{
-    padding: 30px;
-    z-index: 1;
-}
-
-.v-card-fastfood-wrap div:nth-child(1){
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
-    border-radius: 30px 30px 0 0;
-    background: linear-gradient(194deg, rgba(14,68,1,1) 0%, rgba(46,176,24,1) 100%);
-    position: absolute;
-    height: 220px;
-    width: 100%;
-    z-index: 0;
-}
-
-.v-bg-light.v-card-fastfood-wrap{
-    border: 1px solid #777;
-}
-
-.v-card-fastfood h3{
+.slider-1 div:nth-child(1){
     display: flex;
     justify-content: center;
-    color: #fff;
-    margin-top: 10px;
+    align-items: center;
 }
 
-/*.v-bg-light.v-card-fastfood-wrap .v-card-fastfood h3{color: #000;}*/
-
-.v-card-fastfood img{
-    display: block;
-    width: 75%;
-    background-color: transparent;
-    margin: 15px auto;
+.slider-1 div:nth-child(1) label{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 5px;
+    opacity: .5;
 }
 
-.v-card-fastfood span{
+.slider-1 div:nth-child(1) label:hover{
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.slider-1 div:nth-child(2){
+    width: 400%;
     display: flex;
-    color: #ccc;
-    font-size: 25px;
-    font-weight: 100;
 }
 
-.v-card-fastfood h1{
-    color: #ccc;
-    margin: 0;
-    font-weight: 700;
+.slider-1 div:nth-child(2) div{
+    width: 25%;
+    height: 100%;
 }
 
-.v-bg-light.v-card-fastfood-wrap .v-card-fastfood h1,
-.v-bg-light.v-card-fastfood-wrap .v-card-fastfood span{color: #333}
-
-.v-card-fastfood p{
-    color: #fff;
-    font-size: 12px;
+.slider-1 div div:nth-child(5){
+    background-color: #f00;
 }
 
-.v-bg-light.v-card-fastfood-wrap .v-card-fastfood p {color: #000}
-
-.v-card-fastfood hr{
-    width: 100%;
-    border: 0.4px solid #555;
+.slider-1 div div:nth-child(6){
+    background-color: #ff0;
 }
 
-.v-card-fastfood .v-fastfood-calories{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 5px;
+.slider-1 div div:nth-child(7){
+    background-color: #f0f;
 }
 
-.v-card-fastfood .v-fastfood-calories span{
-    color: #aaa;
-    font-weight: 300;
-    font-size: 14px;
-    display: inline;
+.slider-1 div div:nth-child(8){
+    background-color: #00f;
 }
 
-.v-bg-light.v-card-fastfood-wrap .v-card-fastfood .v-fastfood-calories span {color: #333;}
+.slider-1 div:nth-child(2) input{
+    display: none;
+    visibility: hidden;
+}
 
-.v-card-fastfood .v-buy{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
+.slider-1 div:nth-child(2) #slider-1-r1:checked ~ .slider-1-content-1{
+    margin-left: -0;
+    transition: margin-left 1s;
+}
+
+.slider-1 div:nth-child(2) #slider-1-r2:checked ~ .slider-1-content-2{
+    margin-left: -25%;
+    transition: margin-left 1s;
+}
+
+.slider-1 div:nth-child(2) #slider-1-r3:checked ~ .slider-1-content-3{
+    margin-left: -50%;
+    transition: margin-left 1s;
+}
+
+.slider-1 div:nth-child(2) #slider-1-r4:checked ~ .slider-1-content-4{
+    margin-left: -75%;
+    transition: margin-left 1s;
 }
