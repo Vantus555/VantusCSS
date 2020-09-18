@@ -37,3 +37,8 @@
 .v-bg-hover.v-bg-yellow:hover,
 .v-bg-active.v-bg-yellow:active,
 .v-bg-focus.v-bg-yellow:focus{ background-color: rgb(105, 104, 23); }
+
+.v-bg-lightblue{ background-color: #5da0ef;  }
+.v-bg-hover.v-bg-lightblue:hover,
+.v-bg-active.v-bg-lightblue:active,
+.v-bg-focus.v-bg-lightblue:focus{ background-color: #2e80dd; }

@@ -135,8 +135,9 @@
     </div>
 </body>
 
-<script src="VantusJS.js"></script>
-<script src="VJS_Show.js"></script>
+<script>
+    <?php require_once '../../../vjs_fullpack.php'; ?>
+</script>
 
 <script>
     V(".v-navbar-1-collapse .v-btn-collapse").event({

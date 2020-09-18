@@ -7,6 +7,7 @@
 .v-container-540,
 .v-container-450,
 .v-container-360,
+.v-container-300,
 .v-container-240{
     box-sizing: border-box;
 }
@@ -20,6 +21,7 @@
 .v-container-540{width: 540px;}
 .v-container-450{width: 450px;}
 .v-container-360{width: 360px;}
+.v-container-300{width: 300px;}
 .v-container-240{width: 240px;}
 
 @media screen and (max-width: 1440px){
@@ -66,5 +68,6 @@
     .v-container-540,
     .v-container-450,
     .v-container-360,
+    .v-container-300,
     .v-container-240   {width: 100%;}
 }

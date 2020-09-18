@@ -21,10 +21,10 @@
     require_once 'elements/simple/cards/cards.css';
     require_once 'elements/simple/buttons_groups/buttons-groups.css';
     require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
-    require_once 'elements/simple/sliders/slider-1.css';
-
+    
     // Medium
     require_once 'elements/medium/navbars/navbar-1.css';
     require_once 'elements/medium/navbars/navbar-2.css';
     require_once 'elements/medium/navbars/navbar-3.css';
+    require_once 'elements/medium/sliders/slider-1.css';
 ?>

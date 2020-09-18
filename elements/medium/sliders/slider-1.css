@@ -1,0 +1,48 @@
+.v-slider-card-1{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 400px;
+    background: linear-gradient(150deg, rgba(155,99,198,1) 0%, rgba(102,45,222,1) 100%);
+}
+
+.v-slider-card-1 .v-slider-card-1-switches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.v-slider-card-1 .v-slider-card-1-switches label{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-left: 5px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.v-slider-card-1 .v-slider-card-1-switches .v-active-slide{
+    background-color: #fff;
+    opacity: 1;
+}
+
+.v-slider-card-1 .v-slider-card-1-switches label:hover{
+    background-color: #fff;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.v-slider-card-1 .v-slider-card-1-items{
+    display: flex;
+    transition: margin-left 1s;
+}
+
+.v-slider-card-1 .v-slider-card-1-items .v-slider-card-1-slids{
+    width: 33.33333%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    border: 10px solid rgb(0, 0, 0);
+    background-color: #f00;
+}

@@ -10,6 +10,7 @@
     <a class="back" href="../../index.php">Назад</a>
     <div class="list">
         <a href="navbars/index.php" class="listitem">navdars</a>
+        <a href="sliders/index.php" class="listitem">sliders</a>
     </div>
 </body>
 </html>
