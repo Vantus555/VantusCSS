@@ -30,11 +30,6 @@
     let duration = V('.v-slider-card-1 .v-slider-card-1-items').css('transition-duration');
     duration = parseFloat(duration);
 
-    let inter = setTimeout(function slide() {
-        V('.v-slider-card-1 .v-slider-card-1-rb').click();
-        inter = setTimeout(slide, duration * 1000 + 2000);
-    }, duration * 1000 + 2000);
-
     function rb(el){
         el.attr('disabled', true);
         let active = el.parent('.v-slider-card-1').children('.v-slider-card-1-switches label');

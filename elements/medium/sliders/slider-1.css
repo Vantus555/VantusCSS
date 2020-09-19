@@ -1,24 +1,34 @@
 .v-slider-card-1{
     overflow: hidden;
     position: relative;
-    display: grid;
-    grid-template-rows: 1fr 8fr 1fr;
+    /*display: grid;
+    grid-template-rows: 1fr 8fr 1fr; - вот эта тварь портит весь слайдер */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 400px;
     background: linear-gradient(150deg, rgba(155,99,198,1) 0%, rgba(102,45,222,1) 100%);
 }
 
+.v-slider-card-1 .v-btn{
+    height: 10%;
+    width: 100%;
+}
+
 .v-slider-card-1 .v-slider-card-1-switches{
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .v-slider-card-1 .v-slider-card-1-switches label{
-    height: 9px;
-    width: 9px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     background-color: #000;
-    margin-left: 5px;
+    margin-left: 2%;  
     opacity: .5;
     cursor: pointer;
 }
@@ -28,41 +38,66 @@
     opacity: 1;
 }
 
-.v-slider-card-1 .v-slider-card-1-switches label:hover{
+.v-slider-card-1-switches label:hover{
     background-color: #fff;
     opacity: 1;
     transition: opacity 1s ease-out;
 }
 
-.v-slider-card-1 .v-slider-card-1-items{
+.v-slider-card-1-items{
+    height: 80%;
     display: flex;
     transition: margin-left 0.9s;
 }
 
-.v-slider-card-1 .v-slider-card-1-items .v-slider-card-1-slids{
-    width: 33.33333%;
+.v-slider-card-1-slids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-    border: 10px solid rgb(0, 0, 0);
-    background-color: #f00;
+}
+
+.v-slider-card-1-slids div{
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+    background-color: #fff;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.v-slider-card-1-slids h3{
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.v-slider-card-1-slids p{
+    margin: 0;
+    color: #fff;
+    width: 70%;
+    opacity: 0.7;
 }
 
 .v-slider-card-1 .v-slider-card-1-lb,
 .v-slider-card-1 .v-slider-card-1-rb {
+    z-index: 1;
     position: absolute;
     height: 80%;
     width: 10%;
-    background-color: #fff;
+    background-color: transparent;
     opacity: .25;
-    border: none;
-    outline: none;
+    font-size: 25px;
+    color: #fff;
 }
 
 .v-slider-card-1 .v-slider-card-1-lb:hover,
 .v-slider-card-1 .v-slider-card-1-rb:hover {
-    opacity: 0.4;
-    transition: opacity 0.4s;
+    opacity: 1;
+    transition: opacity 0.1s;
 }
 
 .v-slider-card-1 .v-slider-card-1-lb{

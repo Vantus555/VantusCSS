@@ -15,45 +15,68 @@
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
                 <div class="v-slider-card-1 v-container-300">
-                    <button class="v-btn v-slider-card-1-rb"></button>
-                    <button class="v-btn v-slider-card-1-lb"></button>
+                    <button class="v-btn v-slider-card-1-rb">></button>
+                    <button class="v-btn v-slider-card-1-lb"><</button>
                     <div class="v-slider-card-1-switches"></div>
                     <div class="v-slider-card-1-items">
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
+                        <div class="v-slider-card-1-slids">
+                            <div></div>
+                            <h3>data and files</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem illo dolorum a quod eaque accusantium. Ab optio rerum natus!
+                            </p>
+                        </div>
                     </div>
                     <a class="v-btn v-bg-hover v-bg-lightblue v-text-white v-text-trans-upper" href="">next</a>
-                </div>
-            </div>
-        </div>
-        <div class="listitemelem">
-            <div class="element v-container-full v-bg-light "> 
-                <div class="v-slider-card-1 v-container-300">
-                    <div class="v-slider-card-1-switches"></div>
-                    <button class="v-btn v-slider-card-1-rb"></button>
-                    <button class="v-btn v-slider-card-1-lb"></button>
-                    <div class="v-slider-card-1-items">
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                    </div>
-                    <a class="v-btn v-bg-hover v-bg-lightblue v-text-white v-text-trans-upper">next</a>
                 </div>
             </div>
         </div>
