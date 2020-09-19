@@ -1,5 +1,6 @@
 .v-slider-card-1{
     overflow: hidden;
+    position: relative;
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
     height: 400px;
@@ -35,7 +36,7 @@
 
 .v-slider-card-1 .v-slider-card-1-items{
     display: flex;
-    transition: margin-left 1s;
+    transition: margin-left 0.9s;
 }
 
 .v-slider-card-1 .v-slider-card-1-items .v-slider-card-1-slids{
@@ -45,4 +46,33 @@
     box-sizing: border-box;
     border: 10px solid rgb(0, 0, 0);
     background-color: #f00;
+}
+
+.v-slider-card-1 .v-slider-card-1-lb,
+.v-slider-card-1 .v-slider-card-1-rb {
+    position: absolute;
+    height: 80%;
+    width: 10%;
+    background-color: #fff;
+    opacity: .25;
+    border: none;
+    outline: none;
+}
+
+.v-slider-card-1 .v-slider-card-1-lb:hover,
+.v-slider-card-1 .v-slider-card-1-rb:hover {
+    opacity: 0.4;
+    transition: opacity 0.4s;
+}
+
+.v-slider-card-1 .v-slider-card-1-lb{
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+}
+
+.v-slider-card-1 .v-slider-card-1-rb{
+    top: 10%;
+    bottom: 10%;
+    right: 0;
 }

@@ -15,6 +15,8 @@
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
                 <div class="v-slider-card-1 v-container-300">
+                    <button class="v-btn v-slider-card-1-rb"></button>
+                    <button class="v-btn v-slider-card-1-lb"></button>
                     <div class="v-slider-card-1-switches"></div>
                     <div class="v-slider-card-1-items">
                         <div class="v-slider-card-1-slids"></div>
@@ -41,6 +43,8 @@
             <div class="element v-container-full v-bg-light "> 
                 <div class="v-slider-card-1 v-container-300">
                     <div class="v-slider-card-1-switches"></div>
+                    <button class="v-btn v-slider-card-1-rb"></button>
+                    <button class="v-btn v-slider-card-1-lb"></button>
                     <div class="v-slider-card-1-items">
                         <div class="v-slider-card-1-slids"></div>
                         <div class="v-slider-card-1-slids"></div>
@@ -48,17 +52,8 @@
                         <div class="v-slider-card-1-slids"></div>
                         <div class="v-slider-card-1-slids"></div>
                         <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
-                        <div class="v-slider-card-1-slids"></div>
                     </div>
-                    <a class="v-btn v-bg-hover v-bg-lightblue v-text-white v-text-trans-upper" href="">next</a>
+                    <a class="v-btn v-bg-hover v-bg-lightblue v-text-white v-text-trans-upper">next</a>
                 </div>
             </div>
         </div>
@@ -69,40 +64,6 @@
     <?php require_once '../../../vjs_fullpack.php'; ?>
 </script>
 
-<script>
-    {
-        /*let slider = V("v-slider-card-1");
-        let count = slider.parent(".v-slider-card-1-slids").count;*/
-        let count = V(".v-slider-card-1-slids").count;
-        V(".v-slider-card-1-slids").parent().css({
-            'width' : count * 100 +'%'
-        });
-        V(".v-slider-card-1-slids").css({
-            'width' : 100/count +'%'
-        });
-        for (let i = count; i > 0; i--) {
-            let elem = V(document.createElement('label')).attr('data-slide-index', i - 1);
-            if(i == 1)
-                elem.addClass('v-active-slide');
-            V('.v-slider-card-1-switches').put(elem.array()[0], 'prepend');
-        }
-        V('.v-slider-card-1-switches label').event({
-            events: ['click'],
-            funcs: [
-                function(){
-                    if(!V(this).hasClass("v-active-slide")){
-                        let a = V('.v-active-slide').removeClass('v-active-slide');
-                        V(this).addClass('v-active-slide');
-                        let index = V(this).attr('data-slide-index');
-                        V(".v-slider-card-1-items").css({
-                            'margin-left' : -100 * index + '%'
-                        });
-                    }
-                }
-            ]
-        });
-    }
-    
-</script>
+<script src="slider-1.js"></script>
 
 </html>
