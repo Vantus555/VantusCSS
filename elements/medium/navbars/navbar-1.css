@@ -27,7 +27,7 @@
 .v-bg-light.v-navbar-1 div a{color: #000;}
 
 .v-navbar-1 div a:hover{
-    background-color: #fff;
+    background-color: #aaa;
     color: #000;
     transform: scale(1.1, 1.1);
     transition: transform 0.2s;

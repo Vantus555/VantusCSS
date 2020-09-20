@@ -144,7 +144,7 @@
         events: ['click'],
         funcs: [
             function(){
-                let collapsing = V(this).parent('v-navbar-1').children('v-collapsing');
+                let collapsing = V(this).parent('.v-navbar-1').children('.v-collapsing');
                 collapsing.toggleShow({
                     speed: 250,
                     display: "flex",
@@ -158,7 +158,7 @@
         events: ['click'],
         funcs: [
             function(){
-                let collapsing = V(this).parent('v-navbar-2').children('v-collapsing');
+                let collapsing = V(this).parent('.v-navbar-2').children('.v-collapsing');
                 collapsing.toggleShow({
                     speed: 250,
                     display: "flex",
@@ -171,7 +171,7 @@
         events: ['mouseover', 'mouseout'],
         funcs: [
             function(){
-                let border = V(this).parent().children("borderdown");
+                let border = V(this).parent().children(".borderdown");
                 border.show({
                     speed: 150,
                     display: "flex",
@@ -179,7 +179,7 @@
                 });
             },
             function(){
-                let border = V(this).parent().children("borderdown");
+                let border = V(this).parent().children(".borderdown");
                 border.show({
                     speed: 150,
                     display: "flex",
@@ -193,7 +193,7 @@
         events: ['click'],
         funcs: [
             function(){
-                V(this).parent("v-navbar-3").children("v-navbar-3-groups").toggleShow({
+                V(this).parent(".v-navbar-3").children(".v-navbar-3-groups").toggleShow({
                     speed: 1000,
                     display: "flex",
                     direction: 'right',
