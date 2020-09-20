@@ -14,8 +14,8 @@
     <div class="list v-container-1440">
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-container-1440 v-grid-col-3">
-                    <div class="v-flex-center ">
+                <div class="v-container-1440 v-flex-col-3">
+                    <div class="v-flex-center">
                         <div class="v-vcard-default v-bg-light v-container-360">
                             <img src="imgs/720x400.png" alt="">
                             <div>
@@ -30,22 +30,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="v-flex-center ">
-                        <div class="v-vcard-default v-bg-light v-container-360">
-                            <img src="imgs/720x400.png" alt="">
-                            <div>
-                                <p>Category</p>
-                                <p>The catalyzer</p>
-                                <p>
-                                    Photo booth fam kinfolk cold-pressed sriracha leggings jianbing 
-                                    microdosing tousled waistcoat.</p>
-                                <div>
-                                    <a href="#" class="more">Link more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="v-flex-center ">
+                    <div class="v-flex-center">
                         <div class="v-vcard-default v-bg-light v-container-360">
                             <img src="imgs/720x400.png" alt="">
                             <div>
@@ -80,8 +65,8 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-container-1440 v-grid-col-3">
-                    <div class="v-flex-center ">
+                <div class="v-container-1440 v-flex-col-3">
+                    <div class="v-flex-center">
                         <div class="v-card-fastfood-wrap v-bg-dark v-container-360">
                             <div></div>
                             <div class="v-card-fastfood">
@@ -119,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="v-flex-center ">
+                    <div class="v-flex-center">
                         <div class="v-card-fastfood-wrap v-bg-dark v-container-360">
                             <div></div>
                             <div class="v-card-fastfood">
@@ -157,7 +142,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="v-flex-center ">
+                    <div class="v-flex-center">
                         <div class="v-card-fastfood-wrap v-bg-dark v-container-360">
                             <div></div>
                             <div class="v-card-fastfood">
