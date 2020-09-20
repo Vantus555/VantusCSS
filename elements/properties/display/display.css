@@ -21,3 +21,42 @@
 .v-grid-col-8{display: grid; grid-template-columns: repeat(8, 1fr);}
 .v-grid-col-9{display: grid; grid-template-columns: repeat(9, 1fr);}
 .v-grid-col-10{display: grid; grid-template-columns: repeat(10, 1fr);}
+
+@media screen and (max-width: 720px){
+    .v-grid-col-2,
+    .v-grid-col-3,
+    .v-grid-col-4,
+    .v-grid-col-5,
+    .v-grid-col-6,
+    .v-grid-col-7,
+    .v-grid-col-8,
+    .v-grid-col-9,
+    .v-grid-col-10{grid-template-columns: 1fr; grid-row-gap: 20px;}
+}
+
+.v-flex-col-2{display: flex; width: 50%}
+.v-flex-col-3{display: flex; width: 33.3333%}
+.v-flex-col-4{display: flex; width: 25%}
+.v-flex-col-5{display: flex; width: 20%}
+.v-flex-col-6{display: flex; width: 16.6667%}
+.v-flex-col-7{display: flex; width: 14.2875%}
+.v-flex-col-8{display: flex; width: 12.5%}
+.v-flex-col-9{display: flex; width: 11.1111%}
+.v-flex-col-10{display: flex; width: 10%;}
+
+@media screen and (max-width: 960px){
+    .v-flex-col-2,
+    .v-flex-col-3,
+    .v-flex-col-4,
+    .v-flex-col-5,
+    .v-flex-col-6,
+    .v-flex-col-7,
+    .v-flex-col-8,
+    .v-flex-col-9,
+    .v-flex-col-10{width: 100%;}
+    
+    .v-d-flex,
+    .v-flex-jcc,
+    .v-flex-aic,
+    .v-flex-center{flex-direction: column;}
+}
