@@ -26,6 +26,6 @@
     require_once 'elements/medium/navbars/navbar-1.css';
     require_once 'elements/medium/navbars/navbar-2.css';
     require_once 'elements/medium/navbars/navbar-3.css';
-    require_once 'elements/medium/sliders/slider-1.css';
+    require_once 'elements/medium/sliders/slider-margin.css';
     require_once 'elements/medium/card-groups/card-group.css';
 ?>
