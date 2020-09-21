@@ -87,14 +87,19 @@
                     <button class="v-btn v-slider-margin-lb"><</button>
                     <div class="v-slider-margin-switches"></div>
                     <div class="v-slider-margin-items">
-                        <img src="1.jpg" class="v-slider-margin-slids">
-                        <img src="2.jpg" class="v-slider-margin-slids">
-                        <img src="3.jpg" class="v-slider-margin-slids">
-                        <img src="4.jpg" class="v-slider-margin-slids">
-                        <img src="5.jpg" class="v-slider-margin-slids">
-                        <img src="6.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/1.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/2.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/3.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/4.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/5.jpg" class="v-slider-margin-slids">
+                        <img src="images/slider-margin/6.jpg" class="v-slider-margin-slids">
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                
             </div>
         </div>
     </div>
