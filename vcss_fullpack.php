@@ -15,6 +15,7 @@
     require_once 'elements/properties/borders&outlines/bo.css';
 
     // Simple
+    require_once 'elements/simple/text/text-coding.css';
     require_once 'elements/simple/buttons/btn.css';
     require_once 'elements/simple/buttons/bootstrap.css';
     require_once 'elements/simple/buttons/btn-collapse.css';
@@ -26,6 +27,7 @@
     require_once 'elements/medium/navbars/navbar-1.css';
     require_once 'elements/medium/navbars/navbar-2.css';
     require_once 'elements/medium/navbars/navbar-3.css';
+    require_once 'elements/medium/navbars/navbar-4.css';
     require_once 'elements/medium/sliders/slider-margin.css';
     require_once 'elements/medium/card-groups/card-group.css';
 ?>

@@ -121,7 +121,69 @@
                             <div></div>
                         </div>
                     </div>
-                    <div class="v-navbar-3-groups">
+                    <div class="v-collapsing v-navbar-3-groups">
+                        <div><a href="">Whatch Now</a></div>
+                        <div><a href="">Movies</a></div>
+                        <div><a href="">TV Show</a></div>
+                        <div><a href="">Sports</a></div>
+                        <div><a href="">Kids</a></div>
+                        <div><a href="">Library</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div  class="element v-container-full v-bg-light"> 
+                <div class=" v-container-1440 v-navbar-4 v-bg-dark">
+                    <div class="v-navbar-4-logo">
+                        <div class="text-coding">
+                            <div class='v-text-size-20 v-mr-2 v-text-white'><</div>
+                            <div>
+                                <a href="" id="openref" class="text-coding-text"></a>
+                            </div>
+                            <div class="text-line-coding"></div>
+                            <div class='v-text-size-20 v-ml-2 v-text-white'>></div>
+                        </div>
+                        <div class="v-navbar-4-collapse">
+                            <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="v-collapsing v-navbar-4-groups">
+                        <div><a href="">Whatch Now</a></div>
+                        <div><a href="">Movies</a></div>
+                        <div><a href="">TV Show</a></div>
+                        <div><a href="">Sports</a></div>
+                        <div><a href="">Kids</a></div>
+                        <div><a href="">Library</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div  class="element v-container-full v-bg-light"> 
+                <div class=" v-container-1440 v-navbar-4 v-bg-light">
+                    <div class="v-navbar-4-logo">
+                        <div class="text-coding">
+                            <div class='v-text-size-20 v-mr-2 v-text-dark'><</div>
+                            <div>
+                                <a href="" id="openref2" class="text-coding-text"></a>
+                            </div>
+                            <div class="text-line-coding"></div>
+                            <div class='v-text-size-20 v-ml-2 v-text-dark'>></div>
+                        </div>
+                        <div class="v-navbar-4-collapse">
+                            <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="v-collapsing v-navbar-4-groups">
                         <div><a href="">Whatch Now</a></div>
                         <div><a href="">Movies</a></div>
                         <div><a href="">TV Show</a></div>
@@ -140,84 +202,18 @@
 </script>
 
 <script>
-    V(".v-navbar-1-collapse .v-btn-collapse").event({
-        events: ['click'],
-        funcs: [
-            function(){
-                let collapsing = V(this).parent('.v-navbar-1').children('.v-collapsing');
-                collapsing.toggleShow({
-                    speed: 250,
-                    display: "flex",
-                    direction: 'down'
-                });
-            }
-        ]
-    });
     /*---------------------v-navbar-2----------------------*/
-    V(".v-navbar-2-collapse .v-btn-collapse").event({
-        events: ['click'],
-        funcs: [
-            function(){
-                let collapsing = V(this).parent('.v-navbar-2').children('.v-collapsing');
-                collapsing.toggleShow({
-                    speed: 250,
-                    display: "flex",
-                    direction: 'down'
-                });
-            }
-        ]
-    });
-    V(".v-navbar-2-items").event({
-        events: ['mouseover', 'mouseout'],
-        funcs: [
-            function(){
-                let border = V(this).parent().children(".borderdown");
-                border.show({
-                    speed: 150,
-                    display: "flex",
-                    direction: 'right'
-                });
-            },
-            function(){
-                let border = V(this).parent().children(".borderdown");
-                border.show({
-                    speed: 150,
-                    display: "flex",
-                    direction: 'rightback'
-                });
-            }
-        ]
-    });
+    V(".v-navbar-1-collapse .v-btn-collapse").Navbar(".v-navbar-1", 250);
+    /*---------------------v-navbar-2----------------------*/
+    V(".v-navbar-2-collapse .v-btn-collapse").Navbar(".v-navbar-2", 250);
+    /*---------------------v-navbar-3----------------------*/
+    V(".v-navbar-3-collapse .v-btn-collapse").Navbar(".v-navbar-3", 500, 'flex', 'right', '200');
+    /*---------------------v-navbar-4----------------------*/
+    V(".v-navbar-4-collapse .v-btn-collapse").Navbar(".v-navbar-4", 250, 'flex');
+    console.log(V('.v-navbar-4 .v-collapsing').css('height'));
 
-    V(".v-navbar-3-collapse").event({
-        events: ['click'],
-        funcs: [
-            function(){
-                V(this).parent(".v-navbar-3").children(".v-navbar-3-groups").toggleShow({
-                    speed: 1000,
-                    display: "flex",
-                    direction: 'right',
-                    width: '200'
-                });
-            }
-        ]
-    });
-
-    V(".v-btn-collapse").event({
-        events: ['click'],
-        funcs: [
-            function(){
-                let thiselem = V(this);
-                if(!thiselem.hasClass("v-btn-collapse-x") && !thiselem.hasClass("v-btn-collapse-notx")){
-                    thiselem.toggleClass("v-btn-collapse-x");
-                }
-                else{
-                    thiselem.toggleClass("v-btn-collapse-notx");
-                    thiselem.toggleClass("v-btn-collapse-x");
-                }
-            }
-        ]
-    });
+    V('#openref').textCoding("Open Reference", 500);
+    V('#openref2').textCoding("Open Reference", 500);
 </script>
 
 </html>

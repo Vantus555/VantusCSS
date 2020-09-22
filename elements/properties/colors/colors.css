@@ -25,3 +25,13 @@
 .v-text-1{
     color: #111;
 }
+
+.v-text-blue-yellow{color: #07e1e6;}
+.v-text-hover.v-text-blue-yellow:hover,
+.v-text-active.v-text-blue-yellow:active,
+.v-text-focus.v-text-blue-yellow:focus{color: orange;}
+
+.v-text-white-blue{color: #fff;}
+.v-text-hover.v-text-white-blue:hover,
+.v-text-active.v-text-white-blue:active,
+.v-text-focus.v-text-white-blue:focus{color: #07e1e6;}

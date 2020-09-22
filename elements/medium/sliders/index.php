@@ -110,5 +110,6 @@
 </script>
 
 <script src="slider-margin.js"></script>
+<script src="slider-infinite.js"></script>
 
 </html>

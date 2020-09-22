@@ -35,6 +35,15 @@
 .v-pt-0{padding-top: 0px;}
 .v-p-0{padding: 0;}
 
+
+.v-py-50{padding: 50px 0;}
+.v-px-50{padding: 0 50px;}
+.v-p-50{padding: 50px;}
+
+.v-py-100{padding: 100px 0;}
+.v-px-100{padding: 0 100px;}
+.v-p-100{padding: 100px;}
+
 /*--------------margin--------------*/
 .v-mx-auto {margin: auto;}
 /*----------------------------------*/

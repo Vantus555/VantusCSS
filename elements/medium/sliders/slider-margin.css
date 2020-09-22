@@ -128,3 +128,9 @@
 .v-slider-margin .v-slider-margin-rb{
     right: 0;
 }
+
+@media screen and (max-width: 540px){
+    .v-container-full.v-slider-margin{
+        height: auto !important;
+    }
+}

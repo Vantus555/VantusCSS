@@ -14,7 +14,7 @@
     <div class="list v-container-1440">
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-container-1440 v-flex-col-3">
+                <div class="v-cards-group v-container-1440 v-flex-col-3">
                     <div class="v-flex-center">
                         <div class="v-vcard-default v-bg-light v-container-360">
                             <img src="imgs/720x400.png" alt="">
@@ -65,7 +65,7 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-container-1440 v-flex-col-3">
+                <div class="v-cards-group v-container-1440 v-flex-col-3">
                     <div class="v-flex-center">
                         <div class="v-card-fastfood-wrap v-bg-dark v-container-360">
                             <div></div>
