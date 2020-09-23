@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../../mainStyle.css">
+
     <style>
         <?php require_once '../../../vcss_fullpack.php'; ?>
     </style>
@@ -194,6 +195,48 @@
                 </div>
             </div>
         </div>
+        <div class="listitemelem">
+            <div  class="element v-container-full v-bg-light"> 
+                <div style="height: 500px;" class="v-navbar-5 v-bg-light">
+                    <div class="v-navbar-5-collapse">
+                        <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="v-navbar-5-logo">
+                        <img src="images/logo-5.jpg" alt="">
+                    </div>
+                    <div class="v-navbar-5-items">
+                        <a href="#">
+                            <div class="v-navbar-5-img v-navbar-5-img-main"></div>
+                            </svg>
+                            <div class="v-collapsing v-navbar-5-title">Главная</div>
+                        </a>
+                    </div>
+                    <div class="v-navbar-5-items">
+                        <a href="#">
+                            <div class="v-navbar-5-img v-navbar-5-img-news"></div>
+                            <div class="v-collapsing v-navbar-5-title">Новости</div>
+                        </a>
+                    </div>
+                    <div class="v-navbar-5-items">
+                        <a href="#">
+                            <div class="v-navbar-5-img v-navbar-5-img-lessons"></div>
+                            <div class="v-collapsing v-navbar-5-title">Уроки</div>
+                        </a>
+                    </div>
+                    <div class="v-navbar-5-items">
+                        <a href="#">
+                            <div class="v-navbar-5-img v-navbar-5-img-doc"></div>
+                            <div class="v-collapsing v-navbar-5-title">Документация</div>
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -210,10 +253,12 @@
     V(".v-navbar-3-collapse .v-btn-collapse").Navbar(".v-navbar-3", 500, 'flex', 'right', '200');
     /*---------------------v-navbar-4----------------------*/
     V(".v-navbar-4-collapse .v-btn-collapse").Navbar(".v-navbar-4", 250, 'flex');
-    console.log(V('.v-navbar-4 .v-collapsing').css('height'));
+    /*---------------------v-navbar-4----------------------*/
+    V(".v-navbar-5-collapse .v-btn-collapse").Navbar(".v-navbar-5", 300, 'flex', 'right');
 
     V('#openref').textCoding("Open Reference", 500);
     V('#openref2').textCoding("Open Reference", 500);
+    V('#openref3').textCoding("Open Reference", 500);
 </script>
 
 </html>

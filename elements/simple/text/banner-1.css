@@ -1,0 +1,24 @@
+.v-text-banner-1{
+    width: 100%;
+}
+
+.v-text-banner-1 > *{
+    padding: 0;
+    margin: 0;
+}
+
+.v-text-banner-1 > small{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.v-text-banner-1 .text-coding-text{
+    color: #666;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.v-text-banner-1 .text-line-coding{
+    height: calc(15px * 2.55);
+}
