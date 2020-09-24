@@ -2,6 +2,33 @@
     padding: 100px 0;
 }
 
+.v-cards-group-1{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.v-cards-group-1 > div{
+    width: 100%;
+}
+
+.v-cards-group-1 > div.v-card-1-r{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.v-cards-group-1 > div.v-card-1-l{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.v-cards-group-1 > .v-card-1-c{
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
+}
+
 @media screen and (max-width: 540px){
     .v-cards-group{
         padding: 0;

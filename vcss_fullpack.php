@@ -1,4 +1,14 @@
 <?php
+    echo "
+    @font-face {
+        font-family: 'Retro'; 
+        src: url('Retro.ttf'); 
+    }
+    @font-face {
+        font-family: 'TheNoise'; 
+        src: url('TheNoise.ttf'); 
+    }";
+
     // Properties
     require_once 'elements/properties/shadow/shadow.css';
     require_once 'elements/properties/shadow/shadow-move.css';
@@ -17,10 +27,14 @@
     // Simple
     require_once 'elements/simple/text/text-coding.css';
     require_once 'elements/simple/buttons/btn.css';
+    require_once 'elements/simple/buttons/btn-1.css';
     require_once 'elements/simple/buttons/bootstrap.css';
     require_once 'elements/simple/buttons/btn-collapse.css';
     require_once 'elements/simple/cards/cards.css';
+    require_once 'elements/simple/cards/card-1.css';
+    require_once 'elements/simple/cards/card-2.css';
     require_once 'elements/simple/text/banner-1.css';
+    require_once 'elements/simple/text/banner-2.css';
     require_once 'elements/simple/buttons_groups/buttons-groups.css';
     require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
     

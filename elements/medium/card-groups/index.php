@@ -183,6 +183,60 @@
                 </div>
             </div>
         </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                <div class="v-cards-group-1 v-container-1440">
+                    <div class="v-card-1 v-card-1-l">
+                        <div class="v-card-1-statistic">
+                            <div class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Пользователи</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div class="v-card-1-bar">
+                            
+                        </div>
+                    </div>
+                    <div class="v-card-1 v-card-1-c">
+                        <div class="v-card-1-statistic">
+                            <div class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Пользователи</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div class="v-card-1-bar">
+                            
+                        </div>
+                    </div>
+                    <div class="v-card-1 v-card-1-c">
+                        <div class="v-card-1-statistic">
+                            <div class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Пользователи</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div class="v-card-1-bar">
+                            
+                        </div>
+                    </div>
+                    <div class="v-card-1 v-card-1-r">
+                        <div class="v-card-1-statistic">
+                            <div class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Пользователи</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div class="v-card-1-bar">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

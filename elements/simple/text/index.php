@@ -25,6 +25,13 @@
                 </div>
             </div>
         </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light"> 
+                <div class="v-text-banner-2">
+                    Общая информация
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

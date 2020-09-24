@@ -14,7 +14,7 @@
     <div class="list v-container-1440">
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div class="v-slider-margin v-container-300">
+                <div style="height: 400px;" class="v-slider-margin v-container-300">
                     <button class="v-btn v-slider-margin-rb">></button>
                     <button class="v-btn v-slider-margin-lb"><</button>
                     <div class="v-slider-margin-switches"></div>
@@ -82,7 +82,7 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div style="height: 600px" class="v-container-full v-slider-margin">
+                <div style="height: 600px" class="v-slider-full v-slider-margin">
                     <button class="v-btn v-slider-margin-rb">></button>
                     <button class="v-btn v-slider-margin-lb"><</button>
                     <div class="v-slider-margin-switches"></div>

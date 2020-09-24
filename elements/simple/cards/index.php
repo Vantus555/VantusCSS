@@ -180,6 +180,39 @@
                 </div>
             </div>
         </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                <div class="v-card-1">
+                    <div class="v-card-1-statistic">
+                        <div class="v-card-1-icon"></div>
+                        <div class="v-card-1-text">Пользователи</div>
+                    </div>
+                    <div class="v-card-1-num">
+                        36k
+                    </div>
+                    <div class="v-card-1-bar">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                <div style="height: 500px;" class="v-card-2 v-container-360">
+                    <div class="v-card-2-img"></div>
+                    <div class="v-card-2-info">
+                        <div class="v-card-2-text">
+                            <h1>Название</h1>
+                            <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                        </div>
+                        <div class="v-btn v-btn-1">
+                            <p class="v-btn-1-text">Перейти</p>
+                            <p class="v-btn-1-symbol">></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

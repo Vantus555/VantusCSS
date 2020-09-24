@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 540px){
     .v-navbar-5{
         width: 100%;
         flex-direction: row;

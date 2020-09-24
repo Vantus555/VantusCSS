@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class='openref' lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,50 +10,9 @@
         <?php require_once '../../../vcss_fullpack.php'; ?>
     </style>
 </head>
-<body class="v-container-1440 v-mx-auto">
+<body>
     <!--<a class="back" href="../index.php">Назад</a>-->
-
-    <header>
-        <div style="height: 100%;" class="v-navbar-5 v-bg-light">
-            <div class="v-navbar-5-collapse">
-                <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="v-navbar-5-logo">
-                <img src="images/logo-5.jpg" alt="">
-            </div>
-            <div class="v-navbar-5-items">
-                <a href="#">
-                    <div class="v-navbar-5-img v-navbar-5-img-main"></div>
-                    
-                    <div class="v-collapsing v-navbar-5-title">Главная</div>
-                </a>
-            </div>
-            <div class="v-navbar-5-items">
-                <a href="#">
-                    <div class="v-navbar-5-img v-navbar-5-img-news"></div>
-                    <div class="v-collapsing v-navbar-5-title">Новости</div>
-                </a>
-            </div>
-            <div class="v-navbar-5-items">
-                <a href="#">
-                    <div class="v-navbar-5-img v-navbar-5-img-lessons"></div>
-                    <div class="v-collapsing v-navbar-5-title">Уроки</div>
-                </a>
-            </div>
-            <div class="v-navbar-5-items">
-                <a href="#">
-                    <div class="v-navbar-5-img v-navbar-5-img-doc"></div>
-                    <div class="v-collapsing v-navbar-5-title">Документация</div>
-                </a>
-            </div>
-            <hr>
-        </div>
-    </header>
-    <main>
+    <div class="v-w-100 logo_openref">
         <div class="v-text-banner-1">
             <div class="text-coding">
                 <div>
@@ -61,22 +20,97 @@
                 </div>
                 <div class="text-line-coding text-line-coding-blink"></div>
             </div>
-            <small>Информационный портал для программистов. Обучающие статьи и уроки.</small>
+            <!--<small>Информационный портал для инжинеров-программистов. Обучающие статьи и уроки.</small>-->
         </div>
-        <div  class="v-mx-auto v-slider-full v-slider-margin">
-            <button class="v-btn v-slider-margin-rb">&gt;</button>
-            <button class="v-btn v-slider-margin-lb">&lt;</button>
-            <div class="v-slider-margin-switches"></div>
-            <div class="v-slider-margin-items" style="width: 600%;">
-                <img src="images/slider-margin/1.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
-                <img src="images/slider-margin/2.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
-                <img src="images/slider-margin/3.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
-                <img src="images/slider-margin/4.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
-                <img src="images/slider-margin/5.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
-                <img src="images/slider-margin/6.jpg" class="v-slider-margin-slids" style="width: 16.6667%;">
+    </div>
+    <section class="v-container-1440">
+        <header><!------------------HEADER----------------------------->
+            <div style="height: 100%;" class="v-navbar-5 v-bg-light">
+                <div class="v-navbar-5-collapse">
+                    <div class="v-btn v-btn-collapse v-bg-hover v-bg-active v-bg-dark">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="v-navbar-5-logo">
+                    <img src="images/logo-5.jpg" alt="">
+                </div>
+                <div class="v-navbar-5-items">
+                    <a href="#">
+                        <div class="v-navbar-5-img v-navbar-5-img-main"></div>
+                        <div class="v-collapsing v-navbar-5-title">Главная</div>
+                    </a>
+                </div>
+                <div class="v-navbar-5-items">
+                    <a href="#">
+                        <div class="v-navbar-5-img v-navbar-5-img-news"></div>
+                        <div class="v-collapsing v-navbar-5-title">Новости</div>
+                    </a>
+                </div>
+                <div class="v-navbar-5-items">
+                    <a href="#">
+                        <div class="v-navbar-5-img v-navbar-5-img-lessons"></div>
+                        <div class="v-collapsing v-navbar-5-title">Уроки</div>
+                    </a>
+                </div>
+                <div class="v-navbar-5-items">
+                    <a href="#">
+                        <div class="v-navbar-5-img v-navbar-5-img-doc"></div>
+                        <div class="v-collapsing v-navbar-5-title">Документация</div>
+                    </a>
+                </div>
+                <hr>
             </div>
-        </div>
-    </main>
+        </header><!------------------HEADER----------------------------->
+        <main> <!------------------MAIN----------------------------->
+            <div  class="v-mx-auto v-slider-full v-slider-margin">
+                <button class="v-btn v-slider-margin-rb">&gt;</button>
+                <button class="v-btn v-slider-margin-lb">&lt;</button>
+                <div class="v-slider-margin-switches"></div>
+                <div class="v-slider-margin-items">
+                    <img src="images/slider-margin/1.jpg" class="v-slider-margin-slids">
+                    <img src="images/slider-margin/2.jpg" class="v-slider-margin-slids">
+                    <img src="images/slider-margin/3.jpg" class="v-slider-margin-slids">
+                    <img src="images/slider-margin/4.jpg" class="v-slider-margin-slids">
+                    <img src="images/slider-margin/6.jpg" class="v-slider-margin-slids">
+                </div>
+            </div>
+
+            <div class="openref-statistic">
+                <div class="v-text-banner-2 top">
+                    Общая информация
+                </div>
+                <div class="v-cards-group-1">
+                    <div class="v-card-1 v-card-1-l">
+                        <div class="v-card-1-statistic">
+                            <div class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Пользователи</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div class="v-card-1-bar"></div>
+                    </div>
+                    <div class="v-card-1 v-card-1-r">
+                        <div class="v-card-1-statistic">
+                            <div style="background: orange;" class="v-card-1-icon"></div>
+                            <div class="v-card-1-text">Статьи/уроки на сайте</div>
+                        </div>
+                        <div class="v-card-1-num">
+                            36k
+                        </div>
+                        <div style="background: orange;" class="v-card-1-bar"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="v-text-banner-2">
+                Последние добавления
+            </div>
+        </main> <!------------------MAIN----------------------------->
+    </section>
+    
 
 </body>
 
@@ -86,7 +120,8 @@
 
 <script>
     V(".v-navbar-5-collapse .v-btn-collapse").Navbar(".v-navbar-5", 300, 'flex', 'right');
-    V('#openref').textCoding("Добро пожаловать на Open Reference", 1000);
+    V('#openref').textCoding("Open Reference", 1250);
+    //V('#openref').textCoding("Добро пожаловать на Open Reference", 1000);
 </script>
 
 <script src="slider-margin.js"></script>

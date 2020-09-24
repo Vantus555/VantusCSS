@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 400px;
     background: linear-gradient(150deg, rgba(155,99,198,1) 0%, rgba(102,45,222,1) 100%);
 }
 
@@ -131,6 +130,6 @@
 
 @media screen and (max-width: 540px){
     .v-slider-full.v-slider-margin{
-        height: auto !important;
+        height: auto;
     }
 }

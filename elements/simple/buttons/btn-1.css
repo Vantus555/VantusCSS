@@ -1,0 +1,22 @@
+.v-btn-1{
+    padding: 25px 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 15px 0;
+    user-select: none;
+}
+
+.v-btn-1 p{
+    padding: 0;
+    margin: 0;
+}
+
+.v-btn-1-symbol{
+    display: none;
+}
+
