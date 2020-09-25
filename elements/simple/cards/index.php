@@ -203,7 +203,9 @@
                     <div class="v-card-2-info">
                         <div class="v-card-2-text">
                             <h1>Название</h1>
-                            <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, est nisi! Eum rem fugiat quod, perspiciatis debitis quibusdam cupiditate culpa minima ipsa unde sed accusamus?
+                            </p>
                         </div>
                         <div class="v-btn v-btn-1">
                             <p class="v-btn-1-text">Перейти</p>
@@ -220,17 +222,19 @@
                     <div class="v-card-2-info">
                         <div class="v-card-2-text">
                             <h1>Название</h1>
-                            <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi provident suscipit mollitia sit voluptate quibusdam laboriosam consectetur ipsam quia, repellendus consequuntur, distinctio officiis laudantium ut.
+                            </p>
                         </div>
-                        <div class="v-btn v-btn-1">
-                            <p class="v-btn-1-text">Перейти</p>
-                            <p class="v-btn-1-symbol">></p>
-                        </div>
+                    </div>
+                    <div class="v-btn v-btn-1">
+                        <p class="v-btn-1-text">Перейти</p>
+                        <p class="v-btn-1-symbol">></p>
                     </div>
                     <a class="v-card-2-min v-btn" href="">
                         <div class="v-card-2-text">
                             <h1>Название</h1>
-                            <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed voluptas corrupti nihil excepturi. Recusandae, eius iure. Dolorem aperiam fugit iste nemo porro iure culpa quasi.</p>
                         </div>
                         <div class="v-card-2-go">
                             >

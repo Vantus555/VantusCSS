@@ -5,7 +5,8 @@
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    padding: 35px;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .v-card-2 .v-card-2-img{
@@ -18,7 +19,7 @@
 .v-card-2 .v-card-2-text{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 18px;
 }
 
 .v-card-2 .v-card-2-text h1{
@@ -38,7 +39,7 @@
 }
 
 .v-card-2 .v-btn-1{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .v-card-2 .v-card-2-min{
@@ -52,7 +53,8 @@
 
 @media screen and (max-width: 1200px){
     .v-card-2 {
-        padding: 25px;
+        border-radius: 20px;
+        padding: 15px;
         width: 100%;
         height: auto !important;
     }
@@ -65,6 +67,9 @@
     }
     .v-min.v-card-2 .v-card-2-img,
     .v-min.v-card-2 .v-card-2-info{
+        display: none;
+    }
+    .v-min.v-card-2 .v-btn-1{
         display: none;
     }
     .v-card-2 .v-card-2-info{
@@ -88,10 +93,13 @@
         margin: 0;
         margin-left: 5px;
         padding: 25px;
+        width: auto;
+        height: auto;
     }
     .v-min.v-card-2 .v-card-2-min{
         display: flex;
         justify-content: flex-start;
+        padding: 15px;
     }
     .v-min.v-card-2 .v-card-2-text{
         width: 85%;
