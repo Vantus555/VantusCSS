@@ -46,4 +46,5 @@
     require_once 'elements/medium/navbars/navbar-5.css';
     require_once 'elements/medium/sliders/slider-margin.css';
     require_once 'elements/medium/card-groups/card-group.css';
+    require_once 'elements/medium/card-groups/card-group-2.css';
 ?>

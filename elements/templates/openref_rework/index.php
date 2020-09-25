@@ -108,6 +108,75 @@
             <div class="v-text-banner-2">
                 Последние добавления
             </div>
+
+            <div class="v-cards-group-2 v-container-full">
+                    <div class="v-min v-card-2">
+                        <div class="v-card-2-img"></div>
+                        <div class="v-card-2-info">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-btn v-btn-1">
+                                <p class="v-btn-1-text">Перейти</p>
+                                <p class="v-btn-1-symbol">&gt;</p>
+                            </div>
+                        </div>
+                        <a class="v-card-2-min v-btn" href="">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-card-2-go">
+                                &gt;
+                            </div>
+                        </a>
+                    </div>
+                    <div class="v-min v-card-2">
+                        <div class="v-card-2-img"></div>
+                        <div class="v-card-2-info">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-btn v-btn-1">
+                                <p class="v-btn-1-text">Перейти</p>
+                                <p class="v-btn-1-symbol">&gt;</p>
+                            </div>
+                        </div>
+                        <a class="v-card-2-min v-btn" href="">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-card-2-go">
+                                &gt;
+                            </div>
+                        </a>
+                    </div>
+                    <div style="" class="v-min v-card-2">
+                        <div class="v-card-2-img"></div>
+                        <div class="v-card-2-info">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-btn v-btn-1">
+                                <p class="v-btn-1-text">Перейти</p>
+                                <p class="v-btn-1-symbol">&gt;</p>
+                            </div>
+                        </div>
+                        <a class="v-card-2-min v-btn" href="">
+                            <div class="v-card-2-text">
+                                <h1>Название</h1>
+                                <p>Описание статьи или урокаrgfdrfgvdqwr wefcscxfv dfcsdfsdf</p>
+                            </div>
+                            <div class="v-card-2-go">
+                                &gt;
+                            </div>
+                        </a>
+                    </div>
+                </div>
         </main> <!------------------MAIN----------------------------->
     </section>
     
