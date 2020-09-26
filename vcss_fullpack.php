@@ -35,6 +35,7 @@
     require_once 'elements/simple/cards/card-2.css';
     require_once 'elements/simple/text/banner-1.css';
     require_once 'elements/simple/text/banner-2.css';
+    require_once 'elements/simple/feedback/feedback-1.css';
     require_once 'elements/simple/buttons_groups/buttons-groups.css';
     require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
     

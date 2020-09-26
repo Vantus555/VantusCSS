@@ -16,11 +16,11 @@
         <a href="buttons_groups/index.php" class="v-container-1440 listitem">buttons groups</a>
         <a href="cards/index.php" class="v-container-1440 listitem">cards</a>
         <a href="text/index.php" class="v-container-1440 listitem">text</a>
+        <a href="feedback/index.php" class="v-container-1440 listitem">feedback</a>
         <a href="" class="v-container-1440 listitem">alerts</a>
         <a href="" class="v-container-1440 listitem">favicons</a>
         <a href="" class="v-container-1440 listitem">helps</a>
         <a href="" class="v-container-1440 listitem">marks</a>
-        <a href="" class="v-container-1440 listitem">spinners</a>
     </div>
 </body>
 <script>
