@@ -7,6 +7,10 @@
     @font-face {
         font-family: 'TheNoise'; 
         src: url('TheNoise.ttf'); 
+    }
+    @font-face {
+        font-family: 'AsusRog'; 
+        src: url('AsusRog-Regular.ttf'); 
     }";
 
     // Properties
@@ -35,7 +39,6 @@
     require_once 'elements/simple/cards/card-2.css';
     require_once 'elements/simple/text/banner-1.css';
     require_once 'elements/simple/text/banner-2.css';
-    require_once 'elements/simple/feedback/feedback-1.css';
     require_once 'elements/simple/buttons_groups/buttons-groups.css';
     require_once 'elements/simple/buttons_groups/bootstrap-groups.css';
     
@@ -48,4 +51,5 @@
     require_once 'elements/medium/sliders/slider-margin.css';
     require_once 'elements/medium/card-groups/card-group.css';
     require_once 'elements/medium/card-groups/card-group-2.css';
+    require_once 'elements/medium/feedback/feedback-1.css';
 ?>
