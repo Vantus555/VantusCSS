@@ -37,8 +37,9 @@
                     <img src="images/logo-5.jpg" alt="">
                 </div>
                 <div class="v-navbar-5-items">
-                    <a href="#">
+                    <a class="v-bg-violet" href="index.php">
                         <div class="v-navbar-5-img v-navbar-5-img-main"></div>
+                        </svg>
                         <div class="v-collapsing v-navbar-5-title">Главная</div>
                     </a>
                 </div>
@@ -61,6 +62,12 @@
                     </a>
                 </div>
                 <hr>
+                <div class="v-navbar-5-items">
+                    <a href="auth.php">
+                        <div class="v-navbar-5-img v-navbar-5-img-enter"></div>
+                        <div class="v-collapsing v-navbar-5-title">Вход/Регистрация</div>
+                    </a>
+                </div>
             </div>
         </header><!------------------HEADER----------------------------->
         <main> <!------------------MAIN----------------------------->
@@ -266,9 +273,9 @@
             <div class="openref-conats v-text-banner-2">
                 Связь со мной:
                 <div class="openref-conats-img">
-                    <a href=""><img src="images/discord.jpg" alt=""></a>
-                    <a href=""><img src="images/vk.svg" alt=""></a>
-                    <a href=""><img src="images/telegram.png" alt=""></a>
+                    <a target="_blank" href="https://discord.gg/52MSSW"><img src="images/discord.jpg" alt=""></a>
+                    <a target="_blank" href="https://vk.com/idvantus"><img src="images/vk.svg" alt=""></a>
+                    <a target="_blank" href="https://t.me/openref"><img src="images/telegram.png" alt=""></a>
                 </div>
             </div>
         </main> <!------------------MAIN----------------------------->

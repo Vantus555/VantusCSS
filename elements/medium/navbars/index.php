@@ -234,6 +234,12 @@
                         </a>
                     </div>
                     <hr>
+                    <div class="v-navbar-5-items">
+                        <a href="#">
+                            <div class="v-navbar-5-img v-navbar-5-img-enter"></div>
+                            <div class="v-collapsing v-navbar-5-title">Вход/Регистрация</div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

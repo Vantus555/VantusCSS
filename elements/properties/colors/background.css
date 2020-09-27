@@ -42,3 +42,8 @@
 .v-bg-hover.v-bg-lightblue:hover,
 .v-bg-active.v-bg-lightblue:active,
 .v-bg-focus.v-bg-lightblue:focus{ background-color: #2e80dd; }
+
+.v-bg-violet{ background-color: #6c5dd3;  }
+.v-bg-hover.v-bg-lightblue:hover,
+.v-bg-active.v-bg-lightblue:active,
+.v-bg-focus.v-bg-lightblue:focus{ background-color: #2e80dd; }

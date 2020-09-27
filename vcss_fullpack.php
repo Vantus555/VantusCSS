@@ -52,4 +52,7 @@
     require_once 'elements/medium/card-groups/card-group.css';
     require_once 'elements/medium/card-groups/card-group-2.css';
     require_once 'elements/medium/feedback/feedback-1.css';
+    require_once 'elements/medium/inputs/input-1.css';
+    require_once 'elements/medium/inputs/label-1.css';
+    require_once 'elements/medium/forms/form-1.css';
 ?>

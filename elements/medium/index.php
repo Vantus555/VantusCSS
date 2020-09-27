@@ -16,6 +16,8 @@
         <a href="sliders/index.php" class="v-container-1440 listitem">sliders</a>
         <a href="card-groups/index.php" class="v-container-1440 listitem">card groups</a>
         <a href="feedback/index.php" class="v-container-1440 listitem">feedback</a>
+        <a href="inputs/index.php" class="v-container-1440 listitem">input</a>
+        <a href="forms/index.php" class="v-container-1440 listitem">forms</a>
     </div>
 </body>
 </html>

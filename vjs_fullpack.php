@@ -4,4 +4,5 @@
     require_once "../../../../VantusJS/VJS_TextCoding.js";
     require_once "../../../../VantusJS/VJS_BtnCollapse.js";
     require_once "../../../../VantusJS/VJS_Navbar.js";
+    require_once "../../../../VantusJS/VJS_Input.js";
 ?>

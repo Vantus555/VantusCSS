@@ -1,0 +1,50 @@
+.v-input-group-h{
+    width: 100%;
+    display: flex;
+}
+
+.v-input-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.v-input-1-text{
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    padding: 4px 6px;
+    color: #000;
+    background-color: #d1d2d3;
+    box-sizing: border-box;
+}
+
+.v-input-1-btn{
+    color: #777;
+    font-size: 14px;
+    justify-content: center;
+    background-color: #d1d2d3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.v-input-1-btn:hover{
+    color: #555;
+}
+
+.v-input-1-select{
+    height: 30px;
+    width: 30px;
+    appearance: none;
+}
+
+.v-input-1-select > option{
+    background-image: url('images/columns.png');
+    background-size: 22px;
+    display: block;
+    height: 30px;
+    width: 30px;
+}

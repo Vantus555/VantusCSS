@@ -30,10 +30,12 @@
     align-items: center;
 }
 
+.v-navbar-5-items > a.v-bg-violet,
 .v-navbar-5-items > a:hover{
     background-color: #6c5dd3;
     color: #fff;
 }
+
 
 .v-navbar-5-items > a > .v-navbar-5-img{
     background-position: center;
@@ -54,6 +56,7 @@
     background-image: url('images/main-black.svg');
 }
 
+.v-navbar-5-items > a.v-bg-violet > .v-navbar-5-img-main,
 .v-navbar-5-items > a:hover > .v-navbar-5-img-main{
     background-image: url('images/main-white.svg');
 }
@@ -62,6 +65,7 @@
     background-image: url('images/news-black.svg');
 }
 
+.v-navbar-5-items > a.v-bg-violet > .v-navbar-5-img-news,
 .v-navbar-5-items > a:hover > .v-navbar-5-img-news{
     background-image: url('images/news-white.svg');
 }
@@ -70,6 +74,7 @@
     background-image: url('images/lessons-black.svg');
 }
 
+.v-navbar-5-items > a.v-bg-violet > .v-navbar-5-img-lessons,
 .v-navbar-5-items > a:hover > .v-navbar-5-img-lessons{
     background-image: url('images/lessons-white.svg');
 }
@@ -78,8 +83,18 @@
     background-image: url('images/doc-black.svg');
 }
 
+.v-navbar-5-items > a.v-bg-violet > .v-navbar-5-img-doc,
 .v-navbar-5-items > a:hover > .v-navbar-5-img-doc{
     background-image: url('images/doc-white.svg');
+}
+
+.v-navbar-5-items > a > .v-navbar-5-img-enter{
+    background-image: url('images/enter-black.svg');
+}
+
+.v-navbar-5-items > a.v-bg-violet > .v-navbar-5-img-enter,
+.v-navbar-5-items > a:hover > .v-navbar-5-img-enter{
+    background-image: url('images/enter-white.svg');
 }
 
 .v-navbar-5 hr{
