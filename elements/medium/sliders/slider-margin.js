@@ -1,5 +1,5 @@
 {
-    let sliders = V(".v-slider-margin");
+    /*let sliders = V(".v-slider-margin");
     sliders.forEach(element => {
         let children = element.children(".v-slider-margin-slids");
         let count = children.count;
@@ -79,6 +79,6 @@
                 return lb(V(this));
             }
         ]
-    });
+    });*/
 
 }   

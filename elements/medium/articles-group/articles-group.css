@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #f00;
+    position: relative;
 }
 
 .v-horizontal-art-gr{
@@ -45,7 +46,7 @@
     position: relative;
 }
 
-.v-art-title:hover{
+.v-art-title:hover, .v-art-title-active{
     background-color: #ececec;
 }
 
@@ -80,4 +81,15 @@
 
 .v-art-text{
     white-space: nowrap;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.v-editor{
+    border: 1px solid #ccc;
+}
+.v-editor-settings{
+    min-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
 }

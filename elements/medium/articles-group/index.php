@@ -20,7 +20,21 @@
                             +
                         </div>
                     </div>
-                    <div class="v-art-gr-content">
+                    <div style="display: inline-block;" class="v-art-gr-content">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                <div class="v-container-full" name="" id="testeditor"></div>
+            </div>
+        </div>
+        <div class="listitemelem">
+            <div class="element v-container-full v-bg-light "> 
+                <div style="height: 500px;" class="v-editor v-container-720">
+                    <div class="v-editor-settings">
+                        
                     </div>
                 </div>
             </div>
@@ -32,59 +46,11 @@
     <?php require_once '../../../vjs_fullpack.php'; ?>
 </script>
 
+<script src="articles-group.js"></script>
+<script src="//cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
 <script>
-    V('.v-addArt').event({
-        events: ['click'],
-        funcs:[
-            function() {
-                var now = new Date();
-                //alert( now.getTime() );
-                //console.log(this);
-                let elem = `<div data-art="${now.getTime()}" class="v-art-title">\
-                                <span contenteditable="True" class="v-art-text">Пусто</span>\
-                                <div class="v-art-close">X</div>\
-                            </div>`;
-                V(this).put(elem, 'beforeBegin');
-                let content = V(this).parent('.v-articles-group').children('.v-art-gr-content');
-                //<div style='display: none;' data-art="${now.getTime()}" class="v-vertical-art-gr"></div>
-                let contentelem = `<div contenteditable="True" style='display: none;' data-art="${now.getTime()}" class="v-contenteditable v-content-art-gr"></div>`;
-                content.put(contentelem, 'afterBegin');
-            }
-        ]
-    });
-
-    V('.v-horizontal-art-gr').event({
-        events: ['click'],
-        funcs: [
-            function() {
-                var id = V(this).data('data-art');
-            }
-        ],
-        elements: '.v-art-close'
-    });
-
-    V('.v-horizontal-art-gr').event({
-        events: ['click'],
-        funcs: [
-            function() {
-                let id;
-                let parent = V(this).parent('.v-art-title');
-                if(parent)
-                    id = parent.attr('data-art');
-                else
-                    id = V(this).attr('data-art');
-                
-                let main = V(this).parent('.v-articles-group').children('.v-art-gr-content');
-                let contentHide = main.children(`div[style='display: block;']`);
-                console.log(contentHide);
-                contentHide.hide();
-
-                let content = main.children(`div[data-art='${id}']`);
-                content.show();
-            }
-        ],
-        elements: ['.v-art-title', '.v-art-text'],
-    });
+    //DecoupledEditor.create( document.querySelector( '#testeditor' ) );
+    CKEDITOR.replace('testeditor');
 </script>
 
 </html>

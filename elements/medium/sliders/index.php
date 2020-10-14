@@ -112,4 +112,8 @@
 <script src="slider-margin.js"></script>
 <script src="slider-infinite.js"></script>
 
+<script>
+    V('.v-slider-margin').marginSlider(2000);
+</script>
+
 </html>
