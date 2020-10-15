@@ -46,11 +46,11 @@
     <?php require_once '../../../vjs_fullpack.php'; ?>
 </script>
 
-<script src="articles-group.js"></script>
 <script src="//cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
 <script>
+    V('.v-articles-group').ArticleTab();
     //DecoupledEditor.create( document.querySelector( '#testeditor' ) );
-    CKEDITOR.replace('testeditor');
+    //CKEDITOR.replace('testeditor');
 </script>
 
 </html>

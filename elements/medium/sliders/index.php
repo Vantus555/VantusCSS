@@ -14,7 +14,7 @@
     <div class="list v-container-1440">
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div style="height: 400px;" class="v-slider-margin v-container-300">
+                <div id='muslider1' style="height: 400px;" class="v-slider-margin v-container-300">
                     <button class="v-btn v-slider-margin-rb">></button>
                     <button class="v-btn v-slider-margin-lb"><</button>
                     <div class="v-slider-margin-switches"></div>
@@ -82,7 +82,7 @@
         </div>
         <div class="listitemelem">
             <div class="element v-container-full v-bg-light "> 
-                <div style="height: 600px" class="v-slider-full v-slider-margin">
+                <div style="height: 600px" id='muslider2' class="v-slider-full v-slider-margin">
                     <button class="v-btn v-slider-margin-rb">></button>
                     <button class="v-btn v-slider-margin-lb"><</button>
                     <div class="v-slider-margin-switches"></div>
@@ -113,7 +113,8 @@
 <script src="slider-infinite.js"></script>
 
 <script>
-    V('.v-slider-margin').marginSlider(2000);
+    V('#muslider1').marginSlider(800);
+    V('#muslider2').marginSlider(2000);
 </script>
 
 </html>
