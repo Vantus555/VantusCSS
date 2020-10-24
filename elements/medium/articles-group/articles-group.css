@@ -84,12 +84,3 @@
 }
 
 /*-------------------------------------------------------------------------*/
-
-.v-editor{
-    border: 1px solid #ccc;
-}
-.v-editor-settings{
-    min-height: 40px;
-    width: 100%;
-    border-bottom: 1px solid #ccc;
-}

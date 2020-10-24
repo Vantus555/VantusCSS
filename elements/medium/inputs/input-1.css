@@ -9,6 +9,15 @@
     flex-direction: column;
 }
 
+.v-input-1 hr{
+    display: block;
+    border: none;
+    height: 1px;
+    background-color: #d1d2d3;
+    border-radius: 10px;
+    width: 100%;
+}
+
 .v-input-1-text{
     font-size: 14px;
     width: 100%;
@@ -47,4 +56,67 @@
     display: block;
     height: 30px;
     width: 30px;
+}
+
+.v-input-1-checkbox{
+    padding: 10px;
+    width: 100%;
+}
+
+.v-input-1-checkbox-label{
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+}
+
+.v-input-1-checkbox-text{
+    display: flex;
+    font-family: 'Retro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #353c46;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.v-input-1-fake{
+    box-shadow: 0 0 7px 2px black inset;
+    width: 40px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 10px;
+    position: relative;
+}
+
+.v-input-1-fake::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color: #0ff;
+    border-radius: 49%;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+}
+
+.v-input-1-check{
+    display: none;
+}
+
+.v-input-1-check:checked + .v-input-1-fake::before{
+    left: 50%;
+}
+
+.v-input-1-check:checked + .v-input-1-fake{
+    background-color: rgb(8, 197, 8);
+}
+
+.v-input-1-checkbox-description{
+    font-size: 14px;
+    color: #5b5c5d;
 }

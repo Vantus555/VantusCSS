@@ -56,4 +56,5 @@
     require_once 'elements/medium/inputs/label-1.css';
     require_once 'elements/medium/forms/form-1.css';
     require_once 'elements/medium/articles-group/articles-group.css';
+    require_once 'elements/medium/editor/editor.css';
 ?>

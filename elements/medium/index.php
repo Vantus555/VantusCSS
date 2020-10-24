@@ -19,6 +19,7 @@
         <a href="inputs/index.php" class="v-container-1440 listitem">input</a>
         <a href="forms/index.php" class="v-container-1440 listitem">forms</a>
         <a href="articles-group/index.php" class="v-container-1440 listitem">articles-group</a>
+        <a href="editor/index.php" class="v-container-1440 listitem">editor</a>
     </div>
 </body>
 </html>

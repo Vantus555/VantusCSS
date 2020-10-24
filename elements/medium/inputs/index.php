@@ -24,11 +24,16 @@
             </div>
         </div>
         <div class="listitemelem">
-            <div class="element v-container-full v-bg-light "> 
-                <select class="v-input-1-select">
-                    <option></option>
-                    <option></option>
-                </select>
+            <div class="element v-container-full v-bg-light"> 
+                <div class="v-input-1">
+                    <label class="v-input-1-checkbox-label">
+                        <div class="v-input-1-checkbox-text"><span>Текст</span></div>
+                        <input type="checkbox" class="v-input-1-check">
+                        <div class="v-input-1-fake"></div>
+                    </label>
+                    <span class="v-input-1-checkbox-description">sdfcsc</span>
+                    <hr>
+                </div>
             </div>
         </div>
     </div>
