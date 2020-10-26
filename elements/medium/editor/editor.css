@@ -1,4 +1,6 @@
 .v-editor{
+    display: flex;
+    flex-direction: column;
     border: 0.3px solid #aaa;
 }
 
@@ -8,40 +10,58 @@
 }
 
 .v-editor-content{
-    height: 90%;
-    display: flex;
-}
-
-.v-editor-lines{
+    overflow-y: auto;
     height: 100%;
-    width: 10%;
-    border-right: 0.3px solid #aaa;
+    display: flex;
 }
 
 .v-editor-text{
     height: 100%;
-    width: 90%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.v-editor-line-num{
+    width: 10%;
+    min-height: 23.43px;
+    display: flex;
+    justify-content: center;
 }
 
 .v-editor-line{
     font-family: monospace;
     font-size: 20px;
     min-height: 23.43px;
+    display: flex;
 }
 
 .v-editor-area{
+    width: 90%;
     position: relative;
     min-height: 23.43px;
     display: inline-flex;
     white-space: pre-wrap;
     word-break: break-all;
+    cursor: text;
+}
+
+.v-editor-active-area{
+    /*box-shadow: 0 0 5px 0 green;*/
+    background-color: #ddd;
+}
+
+@keyframes cursor{
+    50%{
+        opacity: 0.2;
+    }
 }
 
 .v-editor-cursor{
+    animation: cursor 0.8s ease-in-out infinite;
+    opacity: 1;
     position: absolute;
-    width: 2px;
+    width: 1.2px;
     height: 23.43px;
-    background-color: #f00;
+    background-color: #000;
 }

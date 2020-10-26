@@ -7,4 +7,5 @@
     require_once "../../../../VantusJS/VJS_Input.js";
     require_once "../../../../VantusJS/VJS_Slider.js";
     require_once "../../../../VantusJS/VJS_Tab.js";
+    require_once "../../../../VantusJS/VJS_Editor.js";
 ?>
